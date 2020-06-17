@@ -1,6 +1,6 @@
 {
   "config": {
-    "title": "Docz Example Gatsby",
+    "title": "TotalCross",
     "description": "Example of how to integrate docz with gatsby as a theme",
     "menu": [
       "Home",
@@ -10,72 +10,25 @@
     "repository": "https://github.com/pedronauck/docz",
     "native": false,
     "themeConfig": {},
-    "separator": "-"
+    "separator": "-",
+    "base": "/docs/",
+    "ignore": [
+      "README.md"
+    ]
   },
   "entries": [
     {
-      "key": "README.md",
-      "value": {
-        "id": "04c6e90faac2675aa89e2176d2eec7d8",
-        "filepath": "README.md",
-        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/tc-site/README.md",
-        "link": "https://github.com/pedronauck/docz/edit/master/tc-site/README.md",
-        "hidden": false,
-        "slug": "readme",
-        "route": "/readme",
-        "name": "Readme",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "docz-gatsby-example",
-            "depth": 1,
-            "value": "Docz Gatsby Example"
-          },
-          {
-            "slug": "using-create-docz-app",
-            "depth": 2,
-            "value": "Using  create-docz-app"
-          },
-          {
-            "slug": "download",
-            "depth": 2,
-            "value": "Download"
-          },
-          {
-            "slug": "setup",
-            "depth": 2,
-            "value": "Setup"
-          },
-          {
-            "slug": "start-developing",
-            "depth": 2,
-            "value": "Start developing"
-          },
-          {
-            "slug": "build",
-            "depth": 2,
-            "value": "Build"
-          },
-          {
-            "slug": "serve-built-app",
-            "depth": 2,
-            "value": "Serve built app"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/components/Alert.mdx",
+      "key": "src/docs/Alert.mdx",
       "value": {
         "name": "Alert",
+        "route": "/docs/alert",
         "menu": "Components",
-        "id": "411d2842c3d65e6ee7d3ec119ed4c5a0",
-        "filepath": "src/components/Alert.mdx",
-        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/tc-site/src/components/Alert.mdx",
-        "link": "https://github.com/pedronauck/docz/edit/master/tc-site/src/components/Alert.mdx",
+        "id": "550163641a98a11e4e9f70dc10bc7d48",
+        "filepath": "src/docs/Alert.mdx",
+        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/tc-site/src/docs/Alert.mdx",
+        "link": "https://github.com/pedronauck/docz/edit/master/tc-site/src/docs/Alert.mdx",
         "hidden": false,
-        "slug": "src-components-alert",
-        "route": "/src-components-alert",
+        "slug": "src-docs-alert",
         "headings": [
           {
             "slug": "alert",
@@ -101,17 +54,17 @@
       }
     },
     {
-      "key": "src/components/Button.mdx",
+      "key": "src/docs/Button.mdx",
       "value": {
         "name": "Button",
+        "route": "/docs/button",
         "menu": "Components",
-        "id": "94c04b4e4bd29ffbdeec8755c1a4c04f",
-        "filepath": "src/components/Button.mdx",
-        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/tc-site/src/components/Button.mdx",
-        "link": "https://github.com/pedronauck/docz/edit/master/tc-site/src/components/Button.mdx",
+        "id": "9a8e43b05e308e45dbea894b4b1a9511",
+        "filepath": "src/docs/Button.mdx",
+        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/tc-site/src/docs/Button.mdx",
+        "link": "https://github.com/pedronauck/docz/edit/master/tc-site/src/docs/Button.mdx",
         "hidden": false,
-        "slug": "src-components-button",
-        "route": "/src-components-button",
+        "slug": "src-docs-button",
         "headings": [
           {
             "slug": "button",
@@ -152,16 +105,16 @@
       }
     },
     {
-      "key": "src/pages/index.mdx",
+      "key": "src/docs/index.mdx",
       "value": {
         "name": "Home",
-        "route": "/",
-        "id": "522b7407e210088f3588b943aec44115",
-        "filepath": "src/pages/index.mdx",
-        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/tc-site/src/pages/index.mdx",
-        "link": "https://github.com/pedronauck/docz/edit/master/tc-site/src/pages/index.mdx",
+        "route": "/docs",
+        "id": "13a8a147f67d34248cdc424d524520a5",
+        "filepath": "src/docs/index.mdx",
+        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/tc-site/src/docs/index.mdx",
+        "link": "https://github.com/pedronauck/docz/edit/master/tc-site/src/docs/index.mdx",
         "hidden": false,
-        "slug": "src-pages-index",
+        "slug": "src-docs-index",
         "menu": "",
         "headings": [
           {
@@ -180,7 +133,7 @@
   ],
   "props": [
     {
-      "key": "src/components/Alert.jsx",
+      "key": "src/docs/Alert.jsx",
       "value": [
         {
           "description": "",
@@ -222,7 +175,7 @@
       ]
     },
     {
-      "key": "src/components/Button.jsx",
+      "key": "src/docs/Button.jsx",
       "value": [
         {
           "description": "",
@@ -300,6 +253,17 @@
               }
             }
           }
+        }
+      ]
+    },
+    {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Home",
+          "methods": [],
+          "actualName": "Home"
         }
       ]
     }

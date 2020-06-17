@@ -1,3 +1,6 @@
 export default {
-  menu: ['Home', 'Components'],
-}
+  title: "TotalCross",
+  base: "/docs/",
+  ignore: ["README.md"],
+  menu: ["Home", "Components"],
+};
