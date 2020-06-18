@@ -261,9 +261,9 @@
       "value": [
         {
           "description": "",
-          "displayName": "Home",
+          "displayName": "IndexPage",
           "methods": [],
-          "actualName": "Home"
+          "actualName": "IndexPage"
         }
       ]
     }
