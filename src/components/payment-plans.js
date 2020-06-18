@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "docz";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
