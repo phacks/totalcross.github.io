@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import CallToAction from "./call-to-action";
 
 import styles from "./reasons-home.module.scss";
 import HelloWorldGIF from "../imgs/TotalCrossHelloWorld.gif";
@@ -104,15 +104,7 @@ function Reasons() {
             experience to your embedded systems.
           </p>
           <p>All while delivering native performance with a low footprint.</p>
-          <Button
-            href="https://learn.totalcross.com/documentation/get-started/install/"
-            target="_blank"
-            rel="noopener noreferrer"
-            size="sm"
-            className={styles.button}
-          >
-            Try in 8 minutes
-          </Button>
+          <CallToAction color="black" />
         </div>
       </div>
     </div>

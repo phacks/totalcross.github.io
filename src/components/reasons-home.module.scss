@@ -54,10 +54,23 @@
   border-radius: 40px;
   padding: 12px 36px;
   background-color: $bcg-main;
+  color: $bcg-sec;
   border: none;
+  outline: 0 !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.button:visited {
+  background-color: $bcg-main;
+}
+.button:focus {
+  background-color: $bcg-main;
+}
+.button:hover {
+  background-color: #333333;
+}
+.button:active {
+  background-color: $bcg-main;
+}
 @media only screen and (max-width: 600px) {
   .container-icons {
     flex-wrap: wrap;

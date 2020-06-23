@@ -1,8 +1,10 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import { Button } from "react-bootstrap";
 import Img from "gatsby-image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import CallToAction from "./call-to-action";
 
 import styles from "./cases.module.scss";
 
@@ -101,7 +103,7 @@ function Cases() {
               Install TotalCross VSCode <br /> plugin for a quick start
             </div>
             <div className={styles.buttonAreaButton}>
-              <button className={styles.button}>Try in 8 minutes</button>
+              <CallToAction color="black" />
             </div>
           </div>
         </div>

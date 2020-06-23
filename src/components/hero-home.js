@@ -1,9 +1,9 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import { useStaticQuery, graphql } from "gatsby";
 import BackgroundImage from "gatsby-background-image";
 
 import styles from "./hero-home.module.scss";
+import CallToAction from "./call-to-action";
 
 function HeroHome() {
   const data = useStaticQuery(graphql`
@@ -31,14 +31,7 @@ function HeroHome() {
           Open Source SDK providing a fast and easy way build beautiful User
           Interfaces for Embedded, IoT, mobile, desktop, everything.
         </h4>
-        <Button
-          href="https://learn.totalcross.com/documentation/get-started/install/"
-          target="_blank"
-          className={styles.button}
-          variant="success"
-        >
-          Try in 8 minutes
-        </Button>
+        <CallToAction color="green" />
       </div>
     </BackgroundImage>
   );
