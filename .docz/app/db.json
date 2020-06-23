@@ -266,6 +266,72 @@
           "actualName": "IndexPage"
         }
       ]
+    },
+    {
+      "key": "src/components/contact-form.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ContactForm",
+          "methods": [
+            {
+              "name": "saveMessage",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "name",
+                  "optional": false,
+                  "type": null
+                },
+                {
+                  "name": "email",
+                  "optional": false,
+                  "type": null
+                },
+                {
+                  "name": "message",
+                  "optional": false,
+                  "type": null
+                },
+                {
+                  "name": "country",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "handleInputChange",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "event",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "handleSubmit",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "event",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "ContactForm"
+        }
+      ]
     }
   ]
 }
