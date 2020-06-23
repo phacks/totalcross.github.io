@@ -9,7 +9,7 @@ import HelloWorldGIF from "../imgs/TotalCrossHelloWorld.gif";
 function Reasons() {
   const data = useStaticQuery(graphql`
     query {
-      low: file(relativePath: { eq: "src/imgs/low-footprint.png" }) {
+      low: file(relativePath: { eq: "src/imgs/lowfootprint.png" }) {
         childImageSharp {
           fixed(width: 80, height: 80) {
             ...GatsbyImageSharpFixed

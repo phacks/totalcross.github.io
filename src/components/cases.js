@@ -1,14 +1,9 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { Button } from "react-bootstrap";
 import Img from "gatsby-image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import CallToAction from "./call-to-action";
 
 import styles from "./cases.module.scss";
-
-const download = <FontAwesomeIcon className={styles.icon} icon={faDownload} />;
 
 function Cases() {
   const data = useStaticQuery(graphql`
@@ -30,6 +25,13 @@ function Cases() {
       escol: file(relativePath: { eq: "src/imgs/escolarize.png" }) {
         childImageSharp {
           fixed(width: 80, height: 80) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      download: file(relativePath: { eq: "src/imgs/download.png" }) {
+        childImageSharp {
+          fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -97,7 +99,12 @@ function Cases() {
       </div>
       <div className={styles.callToActionContainer}>
         <div className={styles.callToActionCard}>
-          <div className={styles.casesIcon}>{download}</div>
+          <div className={styles.casesIcon}>
+            <Img
+              fixed={data.download.childImageSharp.fixed}
+              alt="Download icon"
+            />
+          </div>
           <div className={styles.buttonArea}>
             <div className={styles.buttonAreaText}>
               Install TotalCross VSCode <br /> plugin for a quick start
