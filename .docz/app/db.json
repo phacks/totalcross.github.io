@@ -266,28 +266,6 @@
           "actualName": "IndexPage"
         }
       ]
-    },
-    {
-      "key": "src/components/reasons-home.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Reasons",
-          "methods": [],
-          "actualName": "Reasons"
-        }
-      ]
-    },
-    {
-      "key": "src/components/hero-home.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "HeroHome",
-          "methods": [],
-          "actualName": "HeroHome"
-        }
-      ]
     }
   ]
 }
