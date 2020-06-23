@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  // border: solid yellow;
 }
 .footer-nav {
   display: flex;
@@ -42,7 +41,7 @@
   color: $text-accent;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 675px) {
   .footer {
     align-items: center;
     justify-content: center;
@@ -51,12 +50,16 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    text-align: center;
-    // border: solid green;
+    align-items: center;
+    width: 100%;
   }
   .footer-nav-group {
     padding: 10px;
     margin-top: 10px;
     margin-left: 0px;
+    width: fit-content;
+  }
+  .footer-nav-items {
+    text-align: center;
   }
 }
