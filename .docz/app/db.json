@@ -268,13 +268,35 @@
       ]
     },
     {
-      "key": "src/components/cases.js",
+      "key": "src/pages/events.js",
       "value": [
         {
           "description": "",
-          "displayName": "Cases",
+          "displayName": "Community",
           "methods": [],
-          "actualName": "Cases"
+          "actualName": "Community"
+        }
+      ]
+    },
+    {
+      "key": "src/components/card.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Card",
+          "methods": [],
+          "actualName": "Card"
+        }
+      ]
+    },
+    {
+      "key": "src/components/community-our-events.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "OurEvents",
+          "methods": [],
+          "actualName": "OurEvents"
         }
       ]
     }

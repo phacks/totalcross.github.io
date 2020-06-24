@@ -12,13 +12,18 @@ const OurEvents = () => {
     {
       icon: HORN,
       text: "TotalCross Events",
-      url: YOUTUBE_PLAYLIST_EVENTS,
+      route: "/events",
     },
   ];
   return (
     <div className={styles.container}>
       <div className={styles.cardsContainer}>
-        <Card icon={cards[0].icon} text={cards[0].text} url={cards[0].url} />
+        <Card
+          icon={cards[0].icon}
+          text={cards[0].text}
+          url={cards[0].url}
+          route={cards[0].route}
+        />
       </div>
     </div>
   );

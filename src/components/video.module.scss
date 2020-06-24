@@ -1,0 +1,124 @@
+@import "../utils/variables.scss";
+@import "../utils/colors.scss";
+
+.video {
+  padding: 10px;
+}
+.container {
+  background-color: $bcg-sec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  //   border: solid blue;
+  align-items: center;
+}
+.first-title {
+  font: $font-h2;
+  color: $red;
+  margin-top: $title-padding-top-desktop;
+}
+.title {
+  font: $font-h2;
+  color: $red;
+  margin-top: $title-padding-top-desktop2;
+}
+.videos-container,
+.webinars-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  padding-bottom: 20px;
+  width: 80%;
+  //   border: solid green;
+}
+.video-container,
+.webinar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 10px;
+  //   padding-bottom: 10px;
+  width: 340px;
+  //   border: solid green;
+}
+.video-title,
+.webinar-title {
+  //   padding-top: 15px;
+  font: $font-h4;
+  color: $red;
+  padding: 0 10px 25px;
+}
+
+.webinar {
+  width: 320px;
+  height: 176px;
+  background-color: $grey;
+  color: $white;
+  font: $font-h4;
+  font-style: italic;
+  margin: 10px;
+  padding-top: 70px;
+}
+
+.button-container {
+  text-align: right;
+  //   width: 80%;
+  //   border: solid green;
+  margin: 10px;
+  padding-right: 10px;
+}
+.button {
+  font: $font-h4;
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 12px 36px;
+  color: $white;
+  border: none;
+  outline: 0 !important;
+}
+.button {
+  background-color: $black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button:visited {
+  background-color: $black;
+}
+.button:focus {
+  background-color: $black;
+}
+.buttonhover {
+  background-color: $black-highlight;
+}
+.button:active {
+  background-color: $black;
+}
+
+@media only screen and (min-width: 1480px) {
+  .video-container,
+  .webinars-containter {
+    max-width: 1184px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font: $font-h2-mobile;
+  }
+  .video-container,
+  .webinars-containter {
+    margin: 10px 0;
+  }
+  .video {
+    padding: 10px 0;
+  }
+  .webinar {
+    margin: 10px 0;
+    width: 300px;
+  }
+  .button-container {
+    text-align: center;
+  }
+}
