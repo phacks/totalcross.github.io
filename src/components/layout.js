@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet";
 
 import favicon from "../imgs/favicon.ico";
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./layout.module.scss";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,13 +26,10 @@ const Layout = ({ children }) => {
         <link rel="icon" href={favicon} />
       </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          width: "auto",
-        }}
-      >
-        <main>{children}</main>
+      <div className={styles.site}>
+        <main>
+          <div className={styles.siteContent}>{children}</div>
+        </main>
         <Footer />
       </div>
     </div>

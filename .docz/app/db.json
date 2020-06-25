@@ -268,35 +268,22 @@
       ]
     },
     {
-      "key": "src/pages/events.js",
+      "key": "src/components/layout.js",
       "value": [
         {
           "description": "",
-          "displayName": "Community",
+          "displayName": "Layout",
           "methods": [],
-          "actualName": "Community"
-        }
-      ]
-    },
-    {
-      "key": "src/components/card.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Card",
-          "methods": [],
-          "actualName": "Card"
-        }
-      ]
-    },
-    {
-      "key": "src/components/community-our-events.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "OurEvents",
-          "methods": [],
-          "actualName": "OurEvents"
+          "actualName": "Layout",
+          "props": {
+            "children": {
+              "type": {
+                "name": "node"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
         }
       ]
     }
