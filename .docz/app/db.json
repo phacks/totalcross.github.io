@@ -268,22 +268,13 @@
       ]
     },
     {
-      "key": "src/components/layout.js",
+      "key": "src/pages/easy-to-use.js",
       "value": [
         {
           "description": "",
-          "displayName": "Layout",
+          "displayName": "LowFootprint",
           "methods": [],
-          "actualName": "Layout",
-          "props": {
-            "children": {
-              "type": {
-                "name": "node"
-              },
-              "required": true,
-              "description": ""
-            }
-          }
+          "actualName": "LowFootprint"
         }
       ]
     }

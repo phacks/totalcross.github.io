@@ -3,6 +3,7 @@ export const GET_STARTED =
 export const CONTACT = "/contact";
 export const COMMUNITY = "/community";
 export const PRICING = "/pricing";
+export const WHYTC = "/why-totalcross";
 export const ENTERPRISE = "http://www.superwaba.net/SDKRegistrationService/";
 export const DOCS = "https://learn.totalcross.com/";
 export const FORUM = "https://forum.totalcross.com/";

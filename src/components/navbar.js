@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { Navbar, Nav } from "react-bootstrap";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
-import { COMMUNITY, DOCS, PRICING, ENTERPRISE } from "../utils/links";
+import { WHYTC, COMMUNITY, DOCS, PRICING, ENTERPRISE } from "../utils/links";
 
 import SocialNetworks from "../utils/social-networks";
 import styles from "./navbar.module.scss";
@@ -40,6 +40,9 @@ function NavBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className={styles.navContainer}>
+          <Link className={styles.navItem} to={WHYTC}>
+            why totalcross?
+          </Link>
           <Link className={styles.navItem} to={PRICING}>
             pricing
           </Link>
