@@ -12,28 +12,28 @@ const LowFootprint = () => {
     query {
       lang: file(relativePath: { eq: "src/imgs/lang.png" }) {
         childImageSharp {
-          fluid(maxWidth: 370) {
+          fluid(maxWidth: 370, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       endtoend: file(relativePath: { eq: "src/imgs/endtoend.png" }) {
         childImageSharp {
-          fluid(maxWidth: 370) {
+          fluid(maxWidth: 370, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       responsive: file(relativePath: { eq: "src/imgs/responsive.png" }) {
         childImageSharp {
-          fluid(maxWidth: 370) {
+          fluid(maxWidth: 370, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       anyide: file(relativePath: { eq: "src/imgs/anyide.png" }) {
         childImageSharp {
-          fluid(maxWidth: 370) {
+          fluid(maxWidth: 370, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }

@@ -12,7 +12,7 @@ const LowFootprint = () => {
     query {
       crossplatform: file(relativePath: { eq: "src/imgs/crossplatform.png" }) {
         childImageSharp {
-          fluid(maxWidth: 645) {
+          fluid(maxWidth: 645, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
