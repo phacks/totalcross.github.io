@@ -12,14 +12,16 @@
   color: $red;
   font: $font-h1;
   padding-top: $title-padding-top-desktop;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 
   text-align: center;
 }
 
 .menu-item,
 .menu-item-middle {
-  font: $font-h3;
+  font-family: $font-family-sec-mobile;
+  font-weight: 300;
+  font-size: 22px;
   color: $grey;
   padding: 5px 45px;
   margin: 0;
@@ -44,6 +46,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 675px) {

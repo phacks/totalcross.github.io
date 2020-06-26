@@ -63,7 +63,10 @@ const LowFootprint = () => {
               className={styles.image}
             />
             <div className={styles.rowTextBlock}>
-              <div className={styles.rowTitle}>On your favorite IDE</div>
+              <div className={styles.rowTitle}>
+                On your <br />
+                favorite IDE
+              </div>
               <div className={styles.rowText}></div>
             </div>
           </div>

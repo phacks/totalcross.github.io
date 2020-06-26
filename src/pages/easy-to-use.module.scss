@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   width: 85%;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 60px;
   flex-wrap: wrap;
   //   border: solid yellow;
@@ -17,6 +17,12 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  background-color: #e8e8e8;
+  box-shadow: 0px 3px 6px #bfbfbf;
+  // border: solid $grey;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
 .image {
   width: 45%;
@@ -33,6 +39,7 @@
   font: $font-h2;
   color: $red;
   padding-bottom: 30px;
+  padding-right: 20px;
   //   width: 50%;
 }
 .row-text {

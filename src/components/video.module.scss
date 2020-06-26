@@ -13,14 +13,16 @@
   align-items: center;
 }
 .first-title {
-  font: $font-h2;
+  font: $font-h1;
   color: $red;
   margin-top: $title-padding-top-desktop;
+  margin-bottom: 40px;
 }
 .title {
-  font: $font-h2;
+  font: $font-h1;
   color: $red;
   margin-top: $title-padding-top-desktop2;
+  margin-bottom: 40px;
 }
 .videos-container,
 .webinars-container {
@@ -63,7 +65,7 @@ a:hover {
 }
 .button {
   font: $font-h4;
-  margin-top: 20px;
+  margin-top: 0;
   border-radius: 40px;
   padding: 12px 36px;
   color: $white;
