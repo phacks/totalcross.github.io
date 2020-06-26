@@ -10,7 +10,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  //   border: solid blue;
   align-items: center;
 }
 .first-title {
@@ -32,7 +31,6 @@
   margin: 10px;
   padding-bottom: 20px;
   width: 80%;
-  //   border: solid green;
 }
 .video-container,
 .webinar-container {
@@ -40,33 +38,26 @@
   flex-direction: column;
   justify-content: start;
   margin: 10px;
-  //   padding-bottom: 10px;
   width: 340px;
-  //   border: solid green;
 }
 .video-title,
 .webinar-title {
-  //   padding-top: 15px;
   font: $font-h4;
   color: $red;
   padding: 0 10px 25px;
 }
-
+a:hover {
+  text-decoration: none;
+}
+.webinar-title:hover {
+  color: $black;
+}
 .webinar {
-  width: 320px;
-  height: 176px;
-  background-color: $grey;
-  color: $white;
-  font: $font-h4;
-  font-style: italic;
   margin: 10px;
-  padding-top: 70px;
 }
 
 .button-container {
   text-align: right;
-  //   width: 80%;
-  //   border: solid green;
   margin: 10px;
   padding-right: 10px;
 }

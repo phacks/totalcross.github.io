@@ -18,6 +18,10 @@ export const YOUTUBE_PLAYLIST_EVENTS =
 export const LINKEDIN = "https://linkedin.com/company/totalcross";
 export const MEDIUM = "https://medium.com/totalcross-community";
 
+export const WEBINARS = [
+  "https://www.toradex.com/pt-br/webinars/choosing-the-programming-language-for-your-next-embedded-project",
+];
+
 export const VIDEOS = [
   {
     src: "https://www.youtube.com/embed/uQUYom_jtAY",

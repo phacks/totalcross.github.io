@@ -1,4 +1,6 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Card from "../components/card";
@@ -6,7 +8,7 @@ import Video from "../components/video";
 import {
   VIDEOS,
   YOUTUBE_PLAYLIST_EVENTS,
-  TELEGRAM,
+  WEBINARS,
   YOUTUBE,
   MEDIUM,
   LINKEDIN,
@@ -14,7 +16,22 @@ import {
 
 import styles from "../components/video.module.scss";
 
-function Community() {
+function Events() {
+  const data = useStaticQuery(graphql`
+    query {
+      webinar: file(
+        relativePath: {
+          eq: "src/imgs/webinars/choosing_the_programming_language_for_your_next_embedded_project.png"
+        }
+      ) {
+        childImageSharp {
+          fixed(width: 280, height: 158) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `);
   const videos = VIDEOS;
   return (
     <Layout>
@@ -50,10 +67,21 @@ function Community() {
         <h2 className={styles.title}>Join our next webinars</h2>
         <div className={styles.webinarsContainer}>
           <div className={styles.webinarContainer}>
-            <div className={styles.webinar}>... coming soon</div>
-            <div className={styles.webinarTitle}> Our Next Webinar</div>
+            <a href={WEBINARS[0]} target="_blank" rel="noopener noreferrer">
+              <div className={styles.webinar}>
+                <Img
+                  fixed={data.webinar.childImageSharp.fixed}
+                  alt="webinar banner"
+                />
+              </div>
+              <div className={styles.webinarTitle}>
+                {" "}
+                Escolhendo a linguagem de programação para o seu próximo projeto
+                embarcado
+              </div>
+            </a>
           </div>
-          <div className={styles.webinarContainer}>
+          {/* <div className={styles.webinarContainer}>
             <div className={styles.webinar}>... coming soon</div>
             <div className={styles.webinarTitle}>
               Our Next Webinar after That
@@ -62,11 +90,11 @@ function Community() {
           <div className={styles.webinarContainer}>
             <div className={styles.webinar}>... coming soon</div>
             <div className={styles.webinarTitle}> Our Third Webinar</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Layout>
   );
 }
 
-export default Community;
+export default Events;

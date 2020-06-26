@@ -266,6 +266,17 @@
           "actualName": "IndexPage"
         }
       ]
+    },
+    {
+      "key": "src/pages/events.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Events",
+          "methods": [],
+          "actualName": "Events"
+        }
+      ]
     }
   ]
 }
