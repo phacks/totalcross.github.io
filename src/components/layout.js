@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <div>
+    <div className={styles.container}>
       <Helmet>
         <link rel="icon" href={favicon} />
       </Helmet>
