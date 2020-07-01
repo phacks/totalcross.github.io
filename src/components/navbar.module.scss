@@ -10,7 +10,7 @@ a {
   align-items: center;
   background-color: $bcg-main;
   color: $text;
-  // border: solid blue;
+  border-bottom: 0 !important;
 }
 .logo {
   margin-bottom: -5px;
