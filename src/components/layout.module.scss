@@ -1,8 +1,9 @@
 @import "../utils/colors.scss";
-.conatiner {
+.container {
   margin: 0 auto;
   width: auto;
   background-color: $black;
+  margin: 0 !important;
 }
 .site {
   margin: 0 auto;
