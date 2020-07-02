@@ -4,8 +4,10 @@ import SEO from "../components/seo";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 import BackgroundImage from "gatsby-background-image";
+import { Carousel } from "react-bootstrap";
 
 import styles from "./about-us.module.scss";
+import CarouselTeam from "../components/carousel-team";
 
 function AboutUs() {
   const data = useStaticQuery(graphql`
@@ -48,6 +50,27 @@ function AboutUs() {
       values: file(relativePath: { eq: "src/imgs/values.png" }) {
         childImageSharp {
           fixed(width: 125, height: 97) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      andrea: file(relativePath: { eq: "src/imgs/team/andrea.png" }) {
+        childImageSharp {
+          fixed(width: 150, height: 150) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      bruno: file(relativePath: { eq: "src/imgs/team/bruno.png" }) {
+        childImageSharp {
+          fixed(width: 150, height: 150) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      iaggo: file(relativePath: { eq: "src/imgs/team/iaggo.png" }) {
+        childImageSharp {
+          fixed(width: 150, height: 150) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -114,8 +137,7 @@ function AboutUs() {
           </div>
           <div>
             <div className={styles.pageTitle}>Small Team. Big Hearts.</div>
-            <div>text for team</div>
-            <div>Carroussel</div>
+            <CarouselTeam />
           </div>
         </div>
       </BackgroundImage>

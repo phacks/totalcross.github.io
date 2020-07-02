@@ -277,6 +277,17 @@
           "actualName": "AboutUs"
         }
       ]
+    },
+    {
+      "key": "src/components/carousel-team.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CarouselTeam",
+          "methods": [],
+          "actualName": "CarouselTeam"
+        }
+      ]
     }
   ]
 }
