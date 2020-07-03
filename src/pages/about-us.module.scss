@@ -1,0 +1,151 @@
+@import "../utils/variables.scss";
+
+.container {
+  background-color: $bcg-sec;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-title {
+  color: $red;
+  font: $font-h1;
+  padding-top: $title-padding-top-desktop;
+  padding-bottom: 50px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px 0;
+}
+.card {
+  padding: 10px;
+  margin: 5%;
+  width: 20%;
+  margin-bottom: 80px;
+}
+.card-title,
+.team-title {
+  color: $red;
+  font: $font-h1;
+}
+.card-text {
+  font: $font-h3;
+  font-weight: 300;
+}
+.timeline {
+  min-width: 50%;
+}
+.timeline-mobile {
+  display: none;
+}
+.icon {
+  color: $green;
+  // padding: 21px;
+}
+.team-title {
+  margin-bottom: 110px;
+}
+
+@media only screen and (max-width: 600px) {
+  .timeline {
+    display: none;
+  }
+  .timeline-mobile {
+    display: block;
+    min-width: 80%;
+    min-height: 100vh;
+  }
+
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    text-emphasis: left;
+    margin-bottom: 0;
+    margin-left: 12%;
+    width: 80%;
+    padding: 0;
+    // border: solid yellow;
+  }
+  .card-title {
+    color: $red;
+    font: $font-h1;
+    font-size: 25px;
+    line-height: 1.2em;
+    // border: solid orange;
+  }
+  .card-text {
+    font: $font-h3;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.2em;
+  }
+  .icon {
+    // border: solid orange;
+    color: $green;
+    transform: scale(0.5) translate(-50%, 30%);
+    // padding: 21px;
+  }
+  // .container {
+  //   background-color: $bcg-sec;
+  // }
+  // .page-title {
+  //   padding-top: $main-pt-mobile;
+  //   padding-bottom: $main-pb-mobile;
+  //   color: $red;
+  //   font: $font-h1-mobile2;
+  // }
+  // .card {
+  //   background-color: $bcg-main;
+  //   border-radius: 10px;
+  //   color: $white-mobile;
+  //   padding: 10px;
+  //   margin: 10px 10px 30px 10px;
+  // }
+  // .card-title {
+  //   padding-top: 40px;
+  //   font-family: "Poppins";
+  //   font-weight: 800;
+  //   letter-spacing: 2px;
+  //   font-size: 30px;
+  //   text-transform: uppercase;
+  // }
+  // .card-subtitle {
+  //   font: $font-h4;
+  //   font-weight: 300;
+  //   font-style: italic;
+  //   color: $grey-mobile;
+  //   height: 20px;
+  // }
+  // .icon {
+  //   color: $green-mobile;
+  // }
+  // .card-list {
+  //   font-family: "Roboto";
+  //   font-weight: 100;
+  //   // border: solid white;
+  //   text-align: left;
+  //   padding-top: 20px;
+  //   padding-right: 5%;
+  //   padding-left: 10%;
+  //   padding-bottom: 20px;
+  //   //   ;list-style-image: url('')
+  // }
+  // .card-button-get-started {
+  //   text-transform: uppercase;
+  //   background-color: $green-mobile;
+  // }
+  // .card-button-contact {
+  //   text-transform: uppercase;
+  //   background-color: $white-mobile;
+  // }
+}
