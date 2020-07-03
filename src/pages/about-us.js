@@ -26,51 +26,30 @@ function AboutUs() {
           }
         }
       }
-      timelinemob: file(relativePath: { eq: "src/imgs/timeline.png" }) {
+      timelinemob: file(relativePath: { eq: "src/imgs/timeline_mobile.png" }) {
         childImageSharp {
-          fluid(quality: 100, maxWidth: 939) {
+          fluid(quality: 100, maxWidth: 271) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       mission: file(relativePath: { eq: "src/imgs/mission.png" }) {
         childImageSharp {
-          fixed(width: 125, height: 97) {
+          fixed(width: 125, height: 104) {
             ...GatsbyImageSharpFixed
           }
         }
       }
       vision: file(relativePath: { eq: "src/imgs/vision.png" }) {
         childImageSharp {
-          fixed(width: 125, height: 97) {
+          fixed(width: 125, height: 104) {
             ...GatsbyImageSharpFixed
           }
         }
       }
       values: file(relativePath: { eq: "src/imgs/values.png" }) {
         childImageSharp {
-          fixed(width: 125, height: 97) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      andrea: file(relativePath: { eq: "src/imgs/team/andrea.png" }) {
-        childImageSharp {
-          fixed(width: 150, height: 150) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      bruno: file(relativePath: { eq: "src/imgs/team/bruno.png" }) {
-        childImageSharp {
-          fixed(width: 150, height: 150) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      iaggo: file(relativePath: { eq: "src/imgs/team/iaggo.png" }) {
-        childImageSharp {
-          fixed(width: 150, height: 150) {
+          fixed(width: 125, height: 104) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -82,7 +61,7 @@ function AboutUs() {
       <SEO title="About us" />
       <BackgroundImage Tag="section" fluid={data.bg.childImageSharp.fluid}>
         <div className={styles.container}>
-          <div className={styles.pageTitle}>Know Our History</div>
+          <div className={styles.pageTitle}>Our History</div>
           <div className={styles.timeline}>
             <Img
               fluid={data.timeline.childImageSharp.fluid}
@@ -136,7 +115,7 @@ function AboutUs() {
             </div>
           </div>
           <div>
-            <div className={styles.pageTitle}>Small Team. Big Hearts.</div>
+            <div className={styles.teamTitle}>Small Team. Big Hearts.</div>
             <CarouselTeam />
           </div>
         </div>
