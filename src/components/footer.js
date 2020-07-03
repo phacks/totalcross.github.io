@@ -1,7 +1,14 @@
 import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
-import { GET_STARTED, DOCS, CONTACT, MEDIUM, GITHUB } from "../utils/links";
+import {
+  ABOUT,
+  GET_STARTED,
+  DOCS,
+  CONTACT,
+  MEDIUM,
+  GITHUB,
+} from "../utils/links";
 
 import SocialNetworks from "../utils/social-networks";
 
@@ -86,6 +93,11 @@ const Footer = () => {
           <div className={styles.footerNavGroup}>
             <h5 className={styles.footerNavSubtitle}>About Us</h5>
             <ul className={styles.footerNavItems}>
+              <li>
+                <Link className={styles.footerNavItem} to={ABOUT}>
+                  Our History
+                </Link>
+              </li>
               <li>
                 <Link className={styles.footerNavItem} to={CONTACT}>
                   Contact Us

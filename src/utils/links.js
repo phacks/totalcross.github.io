@@ -1,5 +1,6 @@
 export const GET_STARTED =
   "https://learn.totalcross.com/documentation/get-started";
+export const ABOUT = "/about-us";
 export const CONTACT = "/contact";
 export const COMMUNITY = "/community";
 export const PRICING = "/pricing";

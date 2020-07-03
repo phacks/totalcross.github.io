@@ -266,17 +266,6 @@
           "actualName": "IndexPage"
         }
       ]
-    },
-    {
-      "key": "src/pages/about-us.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "AboutUs",
-          "methods": [],
-          "actualName": "AboutUs"
-        }
-      ]
     }
   ]
 }
