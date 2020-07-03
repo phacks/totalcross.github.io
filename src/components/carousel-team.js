@@ -219,7 +219,7 @@ const CarouselTeam = () => {
   return (
     <div>
       {/* Carousel for Desktop*/}
-      <Carousel className={styles.carouselContainer}>
+      <Carousel className={styles.carouselContainer} interval="3000">
         <Carousel.Item>
           <div className={styles.carouselRow}>
             {teamA.map((member) => {
