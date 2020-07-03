@@ -27,14 +27,6 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     {
-      resolve: "gatsby-plugin-hubspot",
-      options: {
-        trackingCode: "1234567",
-        respectDNT: true,
-        productionOnly: true,
-      },
-    },
-    {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
