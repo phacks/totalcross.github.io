@@ -1,9 +1,10 @@
 import React from "react";
+import Img from "gatsby-image";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import LayoutWhyTC from "../components/layout-why-tc";
-import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import NavBarWhyTC from "../components/navbar-why-tc";
 
 import styles from "./low-footprint.module.scss";
 
@@ -35,10 +36,24 @@ const LowFootprint = () => {
       }
     }
   `);
+  const ListLink = (props) => (
+    <li style={{ display: `inline-block` }}>
+      {props.middle ? (
+        <Link className={styles.menuItemMiddle} to={props.to}>
+          {props.children}
+        </Link>
+      ) : (
+        <Link className={styles.menuItem} to={props.to}>
+          {props.children}
+        </Link>
+      )}
+    </li>
+  );
   return (
     <Layout>
       <SEO title="Low footprint with TotalCross"></SEO>
-      <LayoutWhyTC page="low">
+      <LayoutWhyTC>
+        <NavBarWhyTC active="Low Footprint" />
         <div className={styles.row}>
           <div className={styles.rowTextCenter}>
             TotalCross SDK has an innovative architecture to provide low

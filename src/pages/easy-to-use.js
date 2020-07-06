@@ -1,9 +1,10 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import LayoutWhyTC from "../components/layout-why-tc";
-import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import NavBarWhyTC from "../components/navbar-why-tc";
 
 import styles from "./easy-to-use.module.scss";
 
@@ -43,7 +44,8 @@ const LowFootprint = () => {
   return (
     <Layout>
       <SEO title="Low footprint with TotalCross"></SEO>
-      <LayoutWhyTC page="low">
+      <LayoutWhyTC>
+        <NavBarWhyTC active="Easy to use" />
         <div className={styles.row}>
           <div className={styles.rowImage}>
             <Img
@@ -78,7 +80,7 @@ const LowFootprint = () => {
             />
             <div className={styles.rowTextBlock}>
               <div className={styles.rowTitle}>
-                Build end-to-end appplications
+                Build end-to-end applications
               </div>
               <div className={styles.rowText}></div>
             </div>

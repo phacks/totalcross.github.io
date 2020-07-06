@@ -46,6 +46,11 @@
   font: $font-body;
 }
 
+@media only screen and (max-width: 1015px) {
+  .row-title {
+    font: $font-h3;
+  }
+}
 @media only screen and (max-width: 675px) {
   .row {
     flex-wrap: wrap;

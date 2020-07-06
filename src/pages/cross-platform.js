@@ -1,9 +1,10 @@
 import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import LayoutWhyTC from "../components/layout-why-tc";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import SEO from "../components/seo";
+import Layout from "../components/layout";
+import LayoutWhyTC from "../components/layout-why-tc";
+import NavBarWhyTC from "../components/navbar-why-tc";
 
 import styles from "./cross-platform.module.scss";
 
@@ -22,7 +23,8 @@ const LowFootprint = () => {
   return (
     <Layout>
       <SEO title="Low footprint with TotalCross"></SEO>
-      <LayoutWhyTC page="low">
+      <LayoutWhyTC>
+        <NavBarWhyTC active="Cross-Platform" />
         <div className={styles.column}>
           <div className={styles.columnTextBlock}>
             <div className={styles.columnTitle}>
