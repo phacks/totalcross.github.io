@@ -10,14 +10,23 @@ import styles from "./low-footprint.module.scss";
 const LowFootprint = () => {
   const data = useStaticQuery(graphql`
     query {
-      process: file(relativePath: { eq: "src/imgs/process.png" }) {
+      process: file(relativePath: { eq: "src/imgs/process2.png" }) {
         childImageSharp {
           fluid(maxWidth: 385, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      vmdiff: file(relativePath: { eq: "src/imgs/vmdiff.png" }) {
+      process_mobile: file(
+        relativePath: { eq: "src/imgs/process_mobile.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 385, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      vmdiff: file(relativePath: { eq: "src/imgs/vmdiff2.png" }) {
         childImageSharp {
           fluid(maxWidth: 370, quality: 100) {
             ...GatsbyImageSharpFluid
@@ -31,9 +40,22 @@ const LowFootprint = () => {
       <SEO title="Low footprint with TotalCross"></SEO>
       <LayoutWhyTC page="low">
         <div className={styles.row}>
+          <div className={styles.rowTextCenter}>
+            TotalCross SDK has an innovative architecture to provide low
+            footprint Apps even with high level programming languages, due to
+            its bytecode and virtual machine.
+          </div>
+        </div>
+        <div className={styles.row}>
           <div className={styles.rowImage}>
             <Img
               fluid={data.process.childImageSharp.fluid}
+              alt="Illustration of TotalCross Process"
+            />
+          </div>
+          <div className={styles.rowImageMobile}>
+            <Img
+              fluid={data.process_mobile.childImageSharp.fluid}
               alt="Illustration of TotalCross Process"
             />
           </div>
@@ -52,6 +74,12 @@ const LowFootprint = () => {
           </div>
         </div>
         <div className={styles.row}>
+          <div className={styles.rowImageMobile}>
+            <Img
+              fluid={data.vmdiff.childImageSharp.fluid}
+              alt="Illustration of the bytecode difference between TotalCross and Java"
+            />
+          </div>
           <div className={styles.rowTextBlock}>
             <div className={styles.rowTitle}>TotalCross Virtual Machine</div>
             <div className={styles.rowText}>

@@ -268,13 +268,13 @@
       ]
     },
     {
-      "key": "src/components/carousel-team.js",
+      "key": "src/pages/low-footprint.js",
       "value": [
         {
           "description": "",
-          "displayName": "CarouselTeam",
+          "displayName": "LowFootprint",
           "methods": [],
-          "actualName": "CarouselTeam"
+          "actualName": "LowFootprint"
         }
       ]
     }
