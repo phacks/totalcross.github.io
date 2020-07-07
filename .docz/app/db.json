@@ -266,6 +266,63 @@
           "actualName": "IndexPage"
         }
       ]
+    },
+    {
+      "key": "src/components/seo.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SEO",
+          "methods": [],
+          "actualName": "SEO",
+          "props": {
+            "title": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "description": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "image": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "article": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

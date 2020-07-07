@@ -1,9 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `TOTALCROSS`,
+    titleTemplate: "%s · GUI Creator For Embedded, Mobile... Everything!",
     description: `Open Source GUI Creator For Embedded, Mobile... Everything!!`,
-    author: `NATHALIE RISBAKK AND VICTORIA INGRID`,
+    author: `Totalcross`,
     siteUrl: `https://totalcross.com/`,
+    url: `https://totalcross.com`,
+    image: `totalcross_logo.png`,
+    twitterUsername: `@totalcross`,
   },
   plugins: [
     {
