@@ -266,50 +266,6 @@
           "actualName": "IndexPage"
         }
       ]
-    },
-    {
-      "key": "src/pages/cross-platform.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "LowFootprint",
-          "methods": [],
-          "actualName": "LowFootprint"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/easy-to-use.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "LowFootprint",
-          "methods": [],
-          "actualName": "LowFootprint"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/low-footprint.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "LowFootprint",
-          "methods": [],
-          "actualName": "LowFootprint"
-        }
-      ]
-    },
-    {
-      "key": "src/components/layout-why-tc.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "LayoutWhyTC",
-          "methods": [],
-          "actualName": "LayoutWhyTC"
-        }
-      ]
     }
   ]
 }

@@ -69,6 +69,7 @@
   box-shadow: 0 4px 5px grey;
   font-weight: 700;
   color: $red;
+  // border: solid green;
 }
 
 .button-area {
@@ -77,14 +78,17 @@
   flex-direction: row;
   padding: 0;
   padding-bottom: 50px;
+  padding-top: 50px;
   align-items: center;
   justify-content: flex-start;
+  display: flex;
 }
 
 .button-area-text {
   font: $font-h2;
   // padding: auto;
   margin-left: 0;
+  // margin-top: 50px;
   text-align: left;
   padding-left: 40px;
   width: 490px;
@@ -105,11 +109,14 @@
   box-shadow: 0px 3px 6px #21212180;
 }
 .button-area-button {
+  // border: solid green;
   align-items: center;
   padding-right: 40px;
+  align-items: center;
 }
 
 .cases-icon {
+  display: none;
   padding-top: 40px;
   padding-left: 40px;
   text-align: left;
