@@ -99,12 +99,12 @@ function Cases() {
       </div>
       <div className={styles.callToActionContainer}>
         <div className={styles.callToActionCard}>
-          <div className={styles.casesIcon}>
+          {/* <div className={styles.casesIcon}>
             <Img
               fixed={data.download.childImageSharp.fixed}
               alt="Download icon"
             />
-          </div>
+          </div> */}
           <div className={styles.buttonArea}>
             <div className={styles.buttonAreaText}>
               Install TotalCross VSCode <br /> plugin for a quick start

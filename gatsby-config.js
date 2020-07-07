@@ -3,6 +3,7 @@ module.exports = {
     title: `TOTALCROSS`,
     description: `Open Source GUI Creator For Embedded, Mobile... Everything!!`,
     author: `NATHALIE RISBAKK AND VICTORIA INGRID`,
+    siteUrl: `https://totalcross.com/`,
   },
   plugins: [
     {
@@ -23,6 +24,12 @@ module.exports = {
       options: {
         name: `imgs`,
         path: `${__dirname}/src/imgs/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/docs/*`, `/docs`],
       },
     },
     `gatsby-plugin-sass`,
