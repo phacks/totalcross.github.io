@@ -10,7 +10,10 @@ import JoinTheConversation from "../components/community-join-the-conversation";
 function Community() {
   return (
     <Layout>
-      <SEO title="TotalCross Community"></SEO>
+      <SEO
+        title="TotalCross Community"
+        description="Join events organized by TotalCross, become an open source contributor or engage with us on social media. Join the TotalCross Community."
+      ></SEO>
       <HeroCommunity />
       <OurEvents />
       <Contribute />

@@ -35,7 +35,10 @@ function Events() {
   const videos = VIDEOS;
   return (
     <Layout>
-      <SEO title="TotalCross Events"></SEO>
+      <SEO
+        title="TotalCross Events"
+        description="A list of webinars on how to code embedded applications with Java or Kotlin using TotalCross"
+      ></SEO>
       <div className={styles.container}>
         <h2 className={styles.firstTitle}>Watch our past webinars</h2>
         <div className={styles.videosContainer}>

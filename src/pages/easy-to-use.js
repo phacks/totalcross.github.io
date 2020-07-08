@@ -43,7 +43,10 @@ const LowFootprint = () => {
   `);
   return (
     <Layout>
-      <SEO title="Low footprint with TotalCross"></SEO>
+      <SEO
+        title="What makes TotalCross easy to use"
+        description="TotalCross is easy to use because it allows you to code in a high level language, frees you to code on your favourite IDE, helps you build end to end solutions, and with TotalCross you can build your user interface responsive by default."
+      ></SEO>
       <LayoutWhyTC>
         <NavBarWhyTC active="Easy to use" />
         <div className={styles.row}>
@@ -61,7 +64,7 @@ const LowFootprint = () => {
           <div className={styles.rowImage}>
             <Img
               fluid={data.anyide.childImageSharp.fluid}
-              alt="Illustration of diffenrent IDEs"
+              alt="Illustration of different IDEs"
               className={styles.image}
             />
             <div className={styles.rowTextBlock}>

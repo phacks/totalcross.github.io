@@ -22,7 +22,10 @@ const LowFootprint = () => {
   `);
   return (
     <Layout>
-      <SEO title="Low footprint with TotalCross"></SEO>
+      <SEO
+        title="TotalCross is cross-platform"
+        description="With TotalCross you can develop your application in Java and deploy it to iOS, Android, Windows, Linux, and create solutions for embedded/IoT devices, like Raspberry Pi, Toradex or Beaglebone."
+      ></SEO>
       <LayoutWhyTC>
         <NavBarWhyTC active="Cross-Platform" />
         <div className={styles.column}>

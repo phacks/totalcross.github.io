@@ -4,7 +4,6 @@ import SEO from "../components/seo";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 import BackgroundImage from "gatsby-background-image";
-import { Carousel } from "react-bootstrap";
 
 import styles from "./about-us.module.scss";
 import CarouselTeam from "../components/carousel-team";
@@ -58,7 +57,10 @@ function AboutUs() {
   `);
   return (
     <Layout>
-      <SEO title="About us" />
+      <SEO
+        title="TotalCross History"
+        description="TotalCross mission is  to be the software development tool most loved by Embedded Developers."
+      />
       <BackgroundImage Tag="section" fluid={data.bg.childImageSharp.fluid}>
         <div className={styles.container}>
           <div className={styles.pageTitle}>Our History</div>
@@ -84,7 +86,7 @@ function AboutUs() {
               </div>
               <div className={styles.cardTitle}>Mission</div>
               <div className={styles.cardText}>
-                Be the most loved software development tool by Embedded
+                Be the software development tool most loved by Embedded
                 Developers.
               </div>
             </div>
@@ -97,7 +99,7 @@ function AboutUs() {
               </div>
               <div className={styles.cardTitle}>Vision</div>
               <div className={styles.cardText}>
-                Software development made fast and easy for every device in the
+                Software development made fast and easy for every device on the
                 planet.
               </div>
             </div>
@@ -110,7 +112,7 @@ function AboutUs() {
               </div>
               <div className={styles.cardTitle}>Values</div>
               <div className={styles.cardText}>
-                Ownership, driven by details and dev first.
+                Ownership, Driven by Details and Developers First.
               </div>
             </div>
           </div>

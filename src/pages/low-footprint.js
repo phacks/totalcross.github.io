@@ -51,7 +51,10 @@ const LowFootprint = () => {
   );
   return (
     <Layout>
-      <SEO title="Low footprint with TotalCross"></SEO>
+      <SEO
+        title="Low footprint with TotalCross"
+        description="TotalCross keeps a low footprint on your embedded application thanks to its bytecode and virtual machine."
+      ></SEO>
       <LayoutWhyTC>
         <NavBarWhyTC active="Low Footprint" />
         <div className={styles.row}>

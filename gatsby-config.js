@@ -6,7 +6,7 @@ module.exports = {
     author: `Totalcross`,
     siteUrl: `https://totalcross.com/`,
     url: `https://totalcross.com`,
-    image: `totalcross_logo.png`,
+    image: `${__dirname}/static/totalcross_logo.png`,
     twitterUsername: `@totalcross`,
   },
   plugins: [

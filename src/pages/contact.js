@@ -20,7 +20,10 @@ function Contact() {
   `);
   return (
     <Layout>
-      <SEO title="contact us" />
+      <SEO
+        title="TotalCross - Contact us"
+        description="We at TotalCross would love to hear what you have in mind"
+      />
       <BackgroundImage Tag="section" fluid={data.file.childImageSharp.fluid}>
         <ContactForm />
       </BackgroundImage>

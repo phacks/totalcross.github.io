@@ -7,7 +7,7 @@ import LowFootprint from "./low-footprint";
 function WhyTC() {
   return (
     <Layout>
-      <SEO title="TotalCross Pricing"></SEO>
+      <SEO title="Reasons to choose TotalCross for your embedded project"></SEO>
       <LayoutWhyTC>
         <LowFootprint />
       </LayoutWhyTC>

@@ -9,7 +9,7 @@ import Cases from "../components/cases";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="TotalCross Home" />
     <HeroHome />
     <Reasons />
     <Partners />
