@@ -10,7 +10,8 @@ a {
   align-items: center;
   background-color: $bcg-main;
   color: $text;
-  border: 0 !important;
+  // border: 0 !important;
+  // border: solid 2px green;
 }
 .logo {
   margin-bottom: -5px;
@@ -46,6 +47,7 @@ a {
 
 .social-networks {
   // border: solid yellow;
+  width: 129px;
 }
 
 @media only screen and (max-width: 991px) {
