@@ -51,21 +51,17 @@ function Events() {
                 videoTitle={video.title}
               />
               <div className={styles.videoTitle}>{video.title}</div>
-              {video.last === true ? (
-                <div className={styles.buttonContainer}>
-                  <a
-                    href={YOUTUBE_PLAYLIST_EVENTS}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className={styles.button}>More Videos</button>
-                  </a>
-                </div>
-              ) : (
-                ""
-              )}
             </div>
           ))}
+        </div>
+        <div className={styles.buttonContainer}>
+          <a
+            href={YOUTUBE_PLAYLIST_EVENTS}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className={styles.button}>More Videos</button>
+          </a>
         </div>
         <h2 className={styles.title}>Join our next webinars</h2>
         <div className={styles.webinarsContainer}>
