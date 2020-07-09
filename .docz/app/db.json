@@ -277,6 +277,17 @@
           "actualName": "Events"
         }
       ]
+    },
+    {
+      "key": "src/components/navbar-why-tc.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "NavBarWhyTC",
+          "methods": [],
+          "actualName": "NavBarWhyTC"
+        }
+      ]
     }
   ]
 }
