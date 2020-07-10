@@ -85,6 +85,20 @@ const CarouselTeam = () => {
           }
         }
       }
+      pedro: file(relativePath: { eq: "src/imgs/team/pedro.png" }) {
+        childImageSharp {
+          fixed(width: 150, height: 150) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      victoria: file(relativePath: { eq: "src/imgs/team/victoria.png" }) {
+        childImageSharp {
+          fixed(width: 150, height: 150) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
     }
   `);
 
@@ -150,6 +164,19 @@ const CarouselTeam = () => {
   ];
   const team6 = [
     {
+      name: "Victória Ingrid",
+      position: "Design and Digital Marketing",
+      img: data.victoria.childImageSharp.fixed,
+    },
+    {
+      name: "Pedro Lyra",
+      position: "COO",
+      img: data.pedro.childImageSharp.fixed,
+    },
+  ];
+
+  const team7 = [
+    {
       name: "Allan César",
       position: "Developer",
       img: data.allan.childImageSharp.fixed,
@@ -166,6 +193,11 @@ const CarouselTeam = () => {
       name: "Armando Cristino",
       position: "CFO",
       img: data.armando.childImageSharp.fixed,
+    },
+    {
+      name: "Pedro Lyra",
+      position: "COO",
+      img: data.pedro.childImageSharp.fixed,
     },
     {
       name: "Italo Yeltsin",
@@ -213,6 +245,11 @@ const CarouselTeam = () => {
       name: "Allan César",
       position: "Developer",
       img: data.allan.childImageSharp.fixed,
+    },
+    {
+      name: "Victória Ingrid",
+      position: "Design and Digital Marketing",
+      img: data.victoria.childImageSharp.fixed,
     },
   ];
 
@@ -361,6 +398,25 @@ const CarouselTeam = () => {
         <Carousel.Item>
           <div className={styles.carouselRow}>
             {team6.map((member) => (
+              <div className={styles.teamMemberCard}>
+                <Img
+                  className={styles.teamMemberImage}
+                  fixed={member.img}
+                  alt={member.name}
+                />
+                <div className={styles.teamMemberName}>
+                  {member.name} <br />{" "}
+                  <span className={styles.teamMemberPos}>
+                    {member.position}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className={styles.carouselRow}>
+            {team7.map((member) => (
               <div className={styles.teamMemberCard}>
                 <Img
                   className={styles.teamMemberImage}

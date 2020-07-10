@@ -268,24 +268,13 @@
       ]
     },
     {
-      "key": "src/pages/events.js",
+      "key": "src/components/carousel-team.js",
       "value": [
         {
           "description": "",
-          "displayName": "Events",
+          "displayName": "CarouselTeam",
           "methods": [],
-          "actualName": "Events"
-        }
-      ]
-    },
-    {
-      "key": "src/components/navbar-why-tc.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "NavBarWhyTC",
-          "methods": [],
-          "actualName": "NavBarWhyTC"
+          "actualName": "CarouselTeam"
         }
       ]
     }
