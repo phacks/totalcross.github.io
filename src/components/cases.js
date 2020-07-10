@@ -43,7 +43,7 @@ function Cases() {
       <div className={styles.casesContainer}>
         <h2 className={styles.casesTitle}>Built with TotalCross</h2>
         <h4 className={styles.casesSubtitle}>
-          See what developers have already created with TotalCross
+          {/* See what developers have already created with TotalCross */}
         </h4>
         <div className={styles.cardsContainer}>
           <div className={styles.cardContainer}>
