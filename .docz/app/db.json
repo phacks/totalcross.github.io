@@ -268,35 +268,13 @@
       ]
     },
     {
-      "key": "src/components/carousel-team.js",
+      "key": "src/pages/events.js",
       "value": [
         {
           "description": "",
-          "displayName": "CarouselTeam",
+          "displayName": "Events",
           "methods": [],
-          "actualName": "CarouselTeam"
-        }
-      ]
-    },
-    {
-      "key": "src/components/cases.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Cases",
-          "methods": [],
-          "actualName": "Cases"
-        }
-      ]
-    },
-    {
-      "key": "src/components/footer.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Footer",
-          "methods": [],
-          "actualName": "Footer"
+          "actualName": "Events"
         }
       ]
     }
