@@ -8,6 +8,7 @@ import {
   CONTACT,
   MEDIUM,
   GITHUB,
+  EVENTS,
 } from "../utils/links";
 
 import SocialNetworks from "../utils/social-networks";
@@ -87,6 +88,11 @@ const Footer = () => {
                 >
                   Medium
                 </a>
+              </li>
+              <li>
+                <Link className={styles.footerNavItem} to={EVENTS}>
+                  Events
+                </Link>
               </li>
             </ul>
           </div>

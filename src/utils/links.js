@@ -3,6 +3,7 @@ export const GET_STARTED =
 export const ABOUT = "/about-us";
 export const CONTACT = "/contact";
 export const COMMUNITY = "/community";
+export const EVENTS = "/events";
 export const PRICING = "/pricing";
 export const WHYTC = "/low-footprint";
 export const ENTERPRISE = "http://www.superwaba.net/SDKRegistrationService/";
