@@ -38,7 +38,7 @@ const LowFootprint = () => {
           <div className={styles.columnImage}>
             <Img
               fluid={data.crossplatform.childImageSharp.fluid}
-              alt="Illustraiton of all devices that run TotalCross"
+              alt="Illustration of all devices that run TotalCross"
             />
           </div>
         </div>
