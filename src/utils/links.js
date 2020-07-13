@@ -7,7 +7,8 @@ export const EVENTS = "/events";
 export const PRICING = "/pricing";
 export const WHYTC = "/low-footprint";
 export const ENTERPRISE = "http://www.superwaba.net/SDKRegistrationService/";
-export const DOCS = "https://learn.totalcross.com/";
+export const DOCS =
+  "https://learn.totalcross.com/?utm_source=site&utm_medium=principal";
 export const FORUM = "https://forum.totalcross.com/";
 export const TWITTER = "https://twitter.com/TotalCross";
 export const TELEGRAM = "https://t.me/totalcrosscommunity";

@@ -268,13 +268,13 @@
       ]
     },
     {
-      "key": "src/pages/events.js",
+      "key": "src/pages/cross-platform.js",
       "value": [
         {
           "description": "",
-          "displayName": "Events",
+          "displayName": "LowFootprint",
           "methods": [],
-          "actualName": "Events"
+          "actualName": "LowFootprint"
         }
       ]
     }
