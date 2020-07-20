@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import * as firebase from "firebase";
+// import * as firebase from "firebase";
 
 import CrossyOpenWings from "../utils/crossy-open-wings";
 
 import styles from "./contact-form.module.scss";
-import firebaseConfig from "../utils/firebaseConfig";
+// import firebaseConfig from "../utils/firebaseConfig";
 
-//const firebaseConfig = process.env.GATSBY_FIREBASE;
+// //const firebaseConfig = process.env.GATSBY_FIREBASE;
 
-firebase.initializeApp(firebaseConfig);
+// firebase.initializeApp(firebaseConfig);
 
 class ContactForm extends Component {
   state = {
@@ -18,17 +18,17 @@ class ContactForm extends Component {
     country: "",
   };
 
-  messagesRef = firebase.database().ref("messages");
+  // messagesRef = firebase.database().ref("messages");
 
-  saveMessage(name, email, message, country) {
-    var newMessageRef = this.messagesRef.push();
-    newMessageRef.set({
-      name: name,
-      email: email,
-      message: message,
-      country: country,
-    });
-  }
+  // saveMessage(name, email, message, country) {
+  //   var newMessageRef = this.messagesRef.push();
+  //   newMessageRef.set({
+  //     name: name,
+  //     email: email,
+  //     message: message,
+  //     country: country,
+  //   });
+  // }
 
   handleInputChange = (event) => {
     const value = event.target.value;
@@ -37,22 +37,22 @@ class ContactForm extends Component {
       [name]: value,
     });
   };
-  handleSubmit = (event) => {
-    event.preventDefault();
-    alert(`Thank you for your message, ${this.state.name}.`);
-    this.saveMessage(
-      this.state.name,
-      this.state.email,
-      this.state.message,
-      this.state.country
-    );
-    this.setState(() => ({
-      name: "",
-      email: "",
-      message: "",
-      country: "",
-    }));
-  };
+  // handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   alert(`Thank you for your message, ${this.state.name}.`);
+  //   this.saveMessage(
+  //     this.state.name,
+  //     this.state.email,
+  //     this.state.message,
+  //     this.state.country
+  //   );
+  //   this.setState(() => ({
+  //     name: "",
+  //     email: "",
+  //     message: "",
+  //     country: "",
+  //   }));
+  // };
   render() {
     return (
       <div className={styles.container}>
@@ -61,9 +61,9 @@ class ContactForm extends Component {
         <form
           id="contact-form"
           className={styles.form}
-          onSubmit={this.handleSubmit}
-          // action="https://getform.io/f/fe92951a-4b98-4328-bd32-566820ce3504"
-          //method="POST"
+          // onSubmit={this.handleSubmit}
+          action="https://getform.io/f/fe92951a-4b98-4328-bd32-566820ce3504"
+          method="POST"
         >
           <div className={styles.crossy}>
             <CrossyOpenWings />

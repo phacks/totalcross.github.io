@@ -25,7 +25,7 @@ function HeroHome() {
     >
       <div className={styles.containerTextBlock}>
         <h1 className={styles.title}>
-          GUI Creator for Embedded and IoT Devices
+          The fastest way to build GUI for embedded devices
         </h1>
         <h4 className={styles.subtitle}>
           Open Source SDK providing a fast and easy way build beautiful User

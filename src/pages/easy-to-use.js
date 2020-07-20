@@ -75,7 +75,7 @@ const LowFootprint = () => {
               <div className={styles.rowText}></div>
             </div>
           </div>
-          <div className={styles.rowImage}>
+          {/* <div className={styles.rowImage}>
             <Img
               fluid={data.endtoend.childImageSharp.fluid}
               alt="Illustration of End to End applications"
@@ -87,7 +87,7 @@ const LowFootprint = () => {
               </div>
               <div className={styles.rowText}></div>
             </div>
-          </div>
+          </div> */}
           <div className={styles.rowImage}>
             <Img
               fluid={data.responsive.childImageSharp.fluid}
