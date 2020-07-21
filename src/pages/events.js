@@ -19,9 +19,7 @@ import styles from "../components/video.module.scss";
 function Events() {
   const data = useStaticQuery(graphql`
     query {
-      webinar: file(
-        relativePath: { eq: "src/imgs/webinars/moreinfosoon.png" }
-      ) {
+      webinar: file(relativePath: { eq: "src/imgs/webinars/tctalks03.png" }) {
         childImageSharp {
           fixed(width: 300, height: 200) {
             ...GatsbyImageSharpFixed
@@ -64,19 +62,17 @@ function Events() {
         <h2 className={styles.title}>Join our next webinars</h2>
         <div className={styles.webinarsContainer}>
           <div className={styles.webinarContainer}>
-            {/* <a href={WEBINARS[0]} target="_blank" rel="noopener noreferrer"> */}
-            <div className={styles.webinar}>
-              <Img
-                fixed={data.webinar.childImageSharp.fixed}
-                alt="webinar banner"
-              />
-            </div>
-            {/* <div className={styles.webinarTitle}>
-                {" "}
-                Escolhendo a linguagem de programação para o seu próximo projeto
-                embarcado
-              </div> */}
-            {/* </a> */}
+            <a href={WEBINARS[0]} target="_blank" rel="noopener noreferrer">
+              <div className={styles.webinar}>
+                <Img
+                  fixed={data.webinar.childImageSharp.fixed}
+                  alt="webinar banner"
+                />
+              </div>
+              <div className={styles.webinarTitle}>
+                Smart Home com seu Raspberry Pi de forma rápida
+              </div>
+            </a>
           </div>
           {/* <div className={styles.webinarContainer}>
             <div className={styles.webinar}>... coming soon</div>
