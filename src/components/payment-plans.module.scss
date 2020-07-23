@@ -2,13 +2,22 @@
 
 .container {
   background-color: $bcg-sec;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-items: center;
+  width: 100vw;
 }
 .page-title {
   color: $red;
   font: $font-h1;
   padding-top: $title-padding-top-desktop;
   padding-bottom: 50px;
+}
+.page-subtitle {
+  font: $font-h2;
+  padding-top: 50px;
 }
 .cards-container {
   display: flex;
@@ -22,7 +31,7 @@
   padding: 10px;
   margin: 20px 50px;
   width: 350px;
-  margin-bottom: 267px;
+  // margin-bottom: 267px;
   box-shadow: 0px 3px 6px #16161691;
 }
 .card-title {
@@ -79,7 +88,7 @@
   position: absolute;
   z-index: 2;
   margin-top: 1px;
-  margin-left: 5px;
+  margin-left: 9px;
   // border: solid red;
 }
 .card-button-get-started {
@@ -104,6 +113,42 @@
   width: 203px;
   margin-bottom: 36px;
 }
+.content {
+  display: flex;
+  padding: 20px;
+  width: 70%;
+  align-items: center;
+}
+.text {
+  font: $font-body;
+  text-align: left;
+  padding: 50px 20px;
+  height: fit-content;
+}
+.image {
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 1150px) {
+  .content {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .image {
+    display: none;
+  }
+  .content {
+    display: flex;
+    padding: 5px;
+    width: 90%;
+  }
+  .text {
+    font: $font-body;
+    text-align: left;
+    padding: 50px 20px;
+    height: fit-content;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .container {
@@ -121,6 +166,7 @@
     color: $white-mobile;
     padding: 10px;
     margin: 10px 10px 30px 10px;
+    width: 80vw;
   }
   .card-title {
     padding-top: 40px;

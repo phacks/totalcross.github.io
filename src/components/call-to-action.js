@@ -19,9 +19,9 @@ const CallToAction = (props) => {
     <div>
       <a href="" href={GET_STARTED} target="_blank" rel="noopener noreferrer">
         {color === "green" ? (
-          <button className={styles.buttonGreen}>Try in 8 minutes</button>
+          <button className={styles.buttonGreen}>Get Started</button>
         ) : (
-          <button className={styles.buttonBlack}>Try in 8 minutes</button>
+          <button className={styles.buttonBlack}>Get Started</button>
         )}
       </a>
     </div>

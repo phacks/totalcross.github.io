@@ -268,46 +268,13 @@
       ]
     },
     {
-      "key": "src/pages/contact.js",
+      "key": "src/pages/licensing.js",
       "value": [
         {
           "description": "",
-          "displayName": "Contact",
+          "displayName": "Licensing",
           "methods": [],
-          "actualName": "Contact"
-        }
-      ]
-    },
-    {
-      "key": "src/components/hero-home.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "HeroHome",
-          "methods": [],
-          "actualName": "HeroHome"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/cross-platform.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "LowFootprint",
-          "methods": [],
-          "actualName": "LowFootprint"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/easy-to-use.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "LowFootprint",
-          "methods": [],
-          "actualName": "LowFootprint"
+          "actualName": "Licensing"
         }
       ]
     }

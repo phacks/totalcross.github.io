@@ -71,6 +71,7 @@
 .button:active {
   background-color: $bcg-main;
 }
+
 @media only screen and (max-width: 600px) {
   .container-icons {
     flex-wrap: wrap;
