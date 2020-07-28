@@ -268,13 +268,24 @@
       ]
     },
     {
-      "key": "src/pages/licensing.js",
+      "key": "src/pages/articles.js",
       "value": [
         {
           "description": "",
-          "displayName": "Licensing",
+          "displayName": "Articles",
           "methods": [],
-          "actualName": "Licensing"
+          "actualName": "Articles"
+        }
+      ]
+    },
+    {
+      "key": "src/components/content-card.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ContentCard",
+          "methods": [],
+          "actualName": "ContentCard"
         }
       ]
     }
