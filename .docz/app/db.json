@@ -268,17 +268,6 @@
       ]
     },
     {
-      "key": "src/pages/articles.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Articles",
-          "methods": [],
-          "actualName": "Articles"
-        }
-      ]
-    },
-    {
       "key": "src/components/content-card.js",
       "value": [
         {
@@ -286,6 +275,17 @@
           "displayName": "ContentCard",
           "methods": [],
           "actualName": "ContentCard"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/articles.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Articles",
+          "methods": [],
+          "actualName": "Articles"
         }
       ]
     }

@@ -7,15 +7,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import ContentCard from "../components/content-card";
 
-import styles from "../components/payment-plans.module.scss";
+import styles from "../components/content-card.module.scss";
 const check = <FontAwesomeIcon className={styles.icon} icon={faCheckCircle} />;
 
 function Articles() {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "src/imgs/mission.png" }) {
+      bm20200707: file(
+        relativePath: { eq: "src/imgs/articles/blogBM20200707.png" }
+      ) {
         childImageSharp {
-          fixed(width: 100, height: 100) {
+          fixed(width: 320, height: 170) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      pm20200526: file(
+        relativePath: { eq: "src/imgs/articles/blogPM20200526.png" }
+      ) {
+        childImageSharp {
+          fixed(width: 320, height: 170) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -24,14 +35,25 @@ function Articles() {
   `);
   const articles = [
     {
-      image: data.image.childImageSharp.fixed,
+      image: data.bm20200707.childImageSharp.fixed,
       title:
         "Creating and using your own external Java library for your TotalCross Applications",
       subtitle: "",
       author: "Bruno Muniz",
       date: "Jul 7",
       duration: "5",
-      url: "",
+      url:
+        "https://medium.com/totalcross-community/creating-and-using-your-own-external-java-library-for-your-totalcross-applications-9943a9b3a5aa",
+    },
+    {
+      image: data.pm20200526.childImageSharp.fixed,
+      title: "Creating a dashboard for industrial automation",
+      subtitle: "",
+      author: "Patrick Martins",
+      date: "May 26",
+      duration: "8",
+      url:
+        "https://medium.com/totalcross-community/creating-a-dashboard-user-interface-for-embedded-devices-6bc4a7a020e0",
     },
   ];
   return (
@@ -40,9 +62,12 @@ function Articles() {
         title="TotalCross Articles"
         description="Learn how to use totalcross with out tutorials"
       ></SEO>
-      <div>
-        <h2>Article</h2>
-        <div style={{ border: "solid red" }}>
+      <div className={styles.container}>
+        <div className={styles.card}>
+          <div className={styles.title}>Articles</div>
+        </div>
+        <div className={styles.cardExtra}></div>
+        <div className={styles.container}>
           {articles.map((card) => (
             <ContentCard
               image={card.image}
