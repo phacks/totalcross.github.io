@@ -268,24 +268,13 @@
       ]
     },
     {
-      "key": "src/components/content-card.js",
+      "key": "src/pages/tutorials.js",
       "value": [
         {
           "description": "",
-          "displayName": "ContentCard",
+          "displayName": "Tutorials",
           "methods": [],
-          "actualName": "ContentCard"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/articles.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Articles",
-          "methods": [],
-          "actualName": "Articles"
+          "actualName": "Tutorials"
         }
       ]
     }

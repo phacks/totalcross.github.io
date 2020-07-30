@@ -39,3 +39,40 @@ export const VIDEOS = [
     last: true,
   },
 ];
+export const TUTORIALS = [
+  {
+    src: "https://youtu.be/J-3EM2eUDPY",
+    title:
+      "Getting Started with TotalCross using Eclipse IDE: Importing a HelloWorld Maven Project",
+    subtitle:
+      "In this video we show how to get started with TotalCross using Eclipse IDE",
+  },
+  {
+    src: "https://youtu.be/RqENaIW81oU",
+    title:
+      "Getting Started with TotalCross using IntelliJ IDE: Importing a HelloWorld Maven Project",
+    subtitle:
+      "In this video we show how to get started with TotalCross using IntelliJ IDE",
+  },
+  {
+    src: "https://www.youtube.com/embed/_q2c-tWx4oo",
+    title:
+      "Docker, Torizon Android Studio and TotalCross: How to update the GUI of your remote embedded app",
+    subtitle:
+      "In this video, we show how to update the UI of this app there are installed on my Toradex Apalis iMX8QM.",
+  },
+  {
+    src: "https://youtu.be/G6_rQx98neA",
+    title:
+      "How to quickly build a Coronavirus Chart and run on embedded devices",
+    subtitle:
+      "In this video, we will connect a GUI application with a public Rest API to request data from Coronavirus and plot the data on a Line Chart.",
+  },
+  {
+    src: "https://youtu.be/-2q0U_oqLTU",
+    title: "Fast way to create responsive GUI for Raspberry PI",
+    subtitle:
+      "in this video we will talk about responsive GUI for your embedded project.",
+    last: true,
+  },
+];
