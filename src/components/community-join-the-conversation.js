@@ -7,7 +7,8 @@ import {
   faYoutube,
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
-import { faComments } from "@fortawesome/free-solid-svg-icons";
+import { faComments, faPen, faVideo } from "@fortawesome/free-solid-svg-icons";
+
 import {
   FORUM,
   TWITTER,
@@ -15,6 +16,8 @@ import {
   YOUTUBE,
   MEDIUM,
   LINKEDIN,
+  ARTICLES,
+  TUTORIALSPAGE,
 } from "../utils/links";
 import Card from "./card";
 
@@ -39,6 +42,10 @@ const JoinTheConversation = () => {
   const ICON_FORUM = (
     <FontAwesomeIcon className={styles.icon} icon={faComments} />
   );
+  const ICON_ARTICLES = (
+    <FontAwesomeIcon className={styles.icon} icon={faPen} />
+  );
+  const ICON_VIDEO = <FontAwesomeIcon className={styles.icon} icon={faVideo} />;
   const cards1 = [
     {
       icon: ICON_FORUM,
@@ -58,14 +65,14 @@ const JoinTheConversation = () => {
   ];
   const cards2 = [
     {
-      icon: ICON_MEDIUM,
-      text: "Medium",
-      url: MEDIUM,
+      icon: ICON_ARTICLES,
+      text: "Articles",
+      url: ARTICLES,
     },
     {
-      icon: ICON_YOUTUBE,
-      text: "YouTube",
-      url: YOUTUBE,
+      icon: ICON_VIDEO,
+      text: "Video Tutorials",
+      url: TUTORIALSPAGE,
     },
     {
       icon: ICON_LINKEDIN,

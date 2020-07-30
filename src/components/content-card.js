@@ -11,12 +11,12 @@ const ContentCard = (props) => {
         <Img fixed={image} alt={title} className={styles.cardImage} />
       </div>
       <div className={styles.cardText}>
-        <div className={styles.cardTitle}>{title}</div>
+        <a href={url}>
+          <div className={styles.cardTitle}>{title}</div>
+        </a>
         <div className={styles.cardSubtitle}>{subtitle}</div>
         <div className={styles.cardSubtitle}>{author}</div>
-        <div className={styles.cardSubtitle}>
-          {date} - {duration} min read
-        </div>
+        <div className={styles.cardSubtitle}>{date}</div>
       </div>
     </div>
   );

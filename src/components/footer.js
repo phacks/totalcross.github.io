@@ -9,6 +9,7 @@ import {
   MEDIUM,
   GITHUB,
   EVENTS,
+  YOUTUBE,
 } from "../utils/links";
 
 import SocialNetworks from "../utils/social-networks";
@@ -77,6 +78,16 @@ const Footer = () => {
                   rel="noreferrer"
                 >
                   GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  className={styles.footerNavItem}
+                  href={YOUTUBE}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  YouTube
                 </a>
               </li>
               <li>
