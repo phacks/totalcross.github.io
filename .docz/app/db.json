@@ -268,6 +268,83 @@
       ]
     },
     {
+      "key": "src/components/code-snippets/import-corona.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ImportCorona",
+          "methods": [],
+          "actualName": "ImportCorona"
+        }
+      ]
+    },
+    {
+      "key": "src/components/code-snippets/title-corona.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "TitleCorona",
+          "methods": [],
+          "actualName": "TitleCorona"
+        }
+      ]
+    },
+    {
+      "key": "src/components/code-snippets/button-corona.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ButtonCorona",
+          "methods": [],
+          "actualName": "ButtonCorona"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/code-corona-label.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CodeCoronaLabel",
+          "methods": [],
+          "actualName": "CodeCoronaLabel"
+        }
+      ]
+    },
+    {
+      "key": "src/components/button.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "TCButton",
+          "methods": [],
+          "actualName": "TCButton"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/code-corona-button.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CodeCoronaButton",
+          "methods": [],
+          "actualName": "CodeCoronaButton"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/code-corona-import.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CodeCoronaImport",
+          "methods": [],
+          "actualName": "CodeCoronaImport"
+        }
+      ]
+    },
+    {
       "key": "src/pages/easy-to-use2.js",
       "value": [
         {
