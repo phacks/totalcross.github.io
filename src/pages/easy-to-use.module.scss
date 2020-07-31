@@ -45,6 +45,11 @@
 .row-text {
   font: $font-body;
 }
+.code {
+  background-color: white;
+  color: $white;
+  margin: 10px;
+}
 
 @media only screen and (max-width: 1015px) {
   .row-title {

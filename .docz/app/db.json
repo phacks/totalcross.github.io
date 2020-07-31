@@ -268,46 +268,13 @@
       ]
     },
     {
-      "key": "src/components/content-card.js",
+      "key": "src/pages/easy-to-use2.js",
       "value": [
         {
           "description": "",
-          "displayName": "ContentCard",
+          "displayName": "EasyToUse2",
           "methods": [],
-          "actualName": "ContentCard"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/articles.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Articles",
-          "methods": [],
-          "actualName": "Articles"
-        }
-      ]
-    },
-    {
-      "key": "src/components/footer.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Footer",
-          "methods": [],
-          "actualName": "Footer"
-        }
-      ]
-    },
-    {
-      "key": "src/components/community-join-the-conversation.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "JoinTheConversation",
-          "methods": [],
-          "actualName": "JoinTheConversation"
+          "actualName": "EasyToUse2"
         }
       ]
     }
