@@ -79,7 +79,11 @@ const EasyToUse2 = () => {
             <TitleCorona />
           </div>
           <div className={styles.codeMobile}>
-            <TCButton color="black" text="See code" path="/code-corona-label" />
+            <TCButton
+              color="black"
+              text="Show code"
+              path="/code-corona-label"
+            />
           </div>
           <div className={styles.exampleText}>
             The Start and Stop button code:
@@ -87,14 +91,26 @@ const EasyToUse2 = () => {
           <div className={styles.code}>
             <ButtonCorona />
           </div>
-          <TCButton color="black" text="See code" path="/code-corona-button" />
+          <div className={styles.codeMobile}>
+            <TCButton
+              color="black"
+              text="Show code"
+              path="/code-corona-button"
+            />
+          </div>
           <div className={styles.exampleText}>
             This is how data was added to the chart:
           </div>
           <div className={styles.code}>
             <ImportCorona />
           </div>
-          <TCButton color="black" text="See code" path="/code-corona-import" />
+          <div className={styles.codeMobile}>
+            <TCButton
+              color="black"
+              text="Show code"
+              path="/code-corona-import"
+            />
+          </div>
           <div className={styles.exampleText}>
             Would you like to see more? Here is the project's{" "}
             <a
