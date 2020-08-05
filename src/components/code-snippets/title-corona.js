@@ -4,42 +4,42 @@ const TitleCorona = () => {
   return (
     <pre>
       {``}
-      <span style={{ color: "firebrick" }}>{`
+      <span style={{ color: "orange" }}>{`
     @Override
     public void `}</span>
-      <span style={{ color: "purple" }}>{`initUI()`}</span>
+      <span style={{ color: "cornsilk" }}>{`initUI()`}</span>
       {` {
         
       (...) `}
       <span style={{ color: "grey" }}>{`// Adding components to UI`}</span>
       {`
       Label lblTitle = `}
-      <span style={{ color: "firebrick" }}>{`new `}</span>
-      {` Label(`}
+      <span style={{ color: "orange" }}>{`new `}</span>
+      {`Label(`}
       <span
-        style={{ color: "navy" }}
+        style={{ color: "lightgreen" }}
       >{`"Coronavirus (COVID-19) charts and stats"`}</span>
       {`, `}
-      <span style={{ color: "blue" }}>{`CENTER`}</span>
+      <span style={{ color: "cornflowerblue" }}>{`CENTER`}</span>
       {`);
       lblTitle.setForeColor(Color.`}
-      <span style={{ color: "blue" }}>{`WHITE `}</span>
+      <span style={{ color: "cornflowerblue" }}>{`WHITE `}</span>
       {`);
       lblTitle.setFont(Font.getFont(`}
-      <span style={{ color: "blue" }}>{`true `}</span>
+      <span style={{ color: "cornflowerblue" }}>{`true `}</span>
       {`, `}
-      <span style={{ color: "blue" }}>{`36 `}</span>
+      <span style={{ color: "cornflowerblue" }}>{`36 `}</span>
       {`));
       add(lblTitle, `}
-      <span style={{ color: "blue" }}>{`LEFT `}</span>
+      <span style={{ color: "cornflowerblue" }}>{`LEFT `}</span>
       {`, `}
-      <span style={{ color: "blue" }}>{`TOP `}</span>
+      <span style={{ color: "cornflowerblue" }}>{`TOP `}</span>
       {`+ `}
-      <span style={{ color: "blue" }}>{`this`}</span>
+      <span style={{ color: "cornflowerblue" }}>{`this`}</span>
       {`.fmH, `}
-      <span style={{ color: "blue" }}>{`FILL`}</span>
+      <span style={{ color: "cornflowerblue" }}>{`FILL`}</span>
       {`, `}
-      <span style={{ color: "blue" }}>{`PREFERRED`}</span>
+      <span style={{ color: "cornflowerblue" }}>{`PREFERRED`}</span>
       {`);
         
       (...)

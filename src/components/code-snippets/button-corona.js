@@ -4,10 +4,10 @@ const ButtonCorona = () => {
   return (
     <pre>
       {``}
-      <span style={{ color: "firebrick" }}>{`
+      <span style={{ color: "orange" }}>{`
     @Override
     public void `}</span>
-      <span style={{ color: "purple" }}>{`initUI()`}</span>
+      <span style={{ color: "cornsilk" }}>{`initUI()`}</span>
       {` {
         
       (...) `}
@@ -15,9 +15,9 @@ const ButtonCorona = () => {
       {`
 
       Button btnStartStop = `}
-      <span style={{ color: "firebrick" }}>{`new `}</span>
+      <span style={{ color: "orange" }}>{`new `}</span>
       {`Button(`}
-      <span style={{ color: "navy" }}>{`"Start"`}</span>
+      <span style={{ color: "lightgreen" }}>{`"Start"`}</span>
       {`);
       `}
       <span
@@ -25,23 +25,23 @@ const ButtonCorona = () => {
       >{`// Adding listener to start or stop the animation`}</span>
       {`
       btnStartStop.addPressListener(e `}
-      <span style={{ color: "firebrick" }}>{`-> `}</span>
+      <span style={{ color: "orange" }}>{`-> `}</span>
       {`{
         `}
-      <span style={{ color: "firebrick" }}>{`if `}</span>
+      <span style={{ color: "orange" }}>{`if `}</span>
       {` (btnStartStop.getText().equals(`}
-      <span style={{ color: "navy" }}>{`"Start"`}</span>
+      <span style={{ color: "lightgreen" }}>{`"Start"`}</span>
       {`)) {
           restartAnimation();
           btnStartStop.setText(`}
-      <span style={{ color: "navy" }}>{`"Stop"`}</span>
+      <span style={{ color: "lightgreen" }}>{`"Stop"`}</span>
       {`);
         } `}
-      <span style={{ color: "firebrick" }}>{`else `}</span>
+      <span style={{ color: "orange" }}>{`else `}</span>
       {`{
           MainWindow.getMainWindow().removeUpdateListener(updateListener);
           btnStartStop.setText(`}
-      <span style={{ color: "navy" }}>{`"Start"`}</span>
+      <span style={{ color: "lightgreen" }}>{`"Start"`}</span>
       {`);
         }
       });
@@ -49,13 +49,13 @@ const ButtonCorona = () => {
       (...)
 
       add(btnStartStop, `}
-      <span style={{ color: "blue" }}>{`LEFT `}</span>
+      <span style={{ color: "cornflowerblue" }}>{`LEFT `}</span>
       {`+ `}
-      <span style={{ color: "blue" }}>{`this`}</span>
+      <span style={{ color: "cornflowerblue" }}>{`this`}</span>
       {`.fmH, `}
-      <span style={{ color: "blue" }}>{`AFTER `}</span>
+      <span style={{ color: "cornflowerblue" }}>{`AFTER `}</span>
       {`+ `}
-      <span style={{ color: "blue" }}>{`this`}</span>
+      <span style={{ color: "cornflowerblue" }}>{`this`}</span>
       {`.fmH);
         
       (...)

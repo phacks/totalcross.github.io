@@ -266,6 +266,50 @@
           "actualName": "IndexPage"
         }
       ]
+    },
+    {
+      "key": "src/components/code-snippets/import-corona.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ImportCorona",
+          "methods": [],
+          "actualName": "ImportCorona"
+        }
+      ]
+    },
+    {
+      "key": "src/components/code-snippets/title-corona.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "TitleCorona",
+          "methods": [],
+          "actualName": "TitleCorona"
+        }
+      ]
+    },
+    {
+      "key": "src/components/code-snippets/button-corona.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ButtonCorona",
+          "methods": [],
+          "actualName": "ButtonCorona"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/easy-to-use.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "EasyToUse",
+          "methods": [],
+          "actualName": "EasyToUse"
+        }
+      ]
     }
   ]
 }

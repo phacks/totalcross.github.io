@@ -1,6 +1,9 @@
 @import "../utils/colors.scss";
 @import "../utils/variables.scss";
 
+pre {
+  color: ghostwhite;
+}
 .row {
   display: flex;
   justify-content: center;
@@ -44,9 +47,11 @@
   color: $red;
   // padding-bottom: 30px;
   padding-right: 20px;
+
   //   width: 50%;
 }
 .row-title2 {
+  margin-top: 20px;
   padding: 0;
   width: 100%;
   color: $black-highlight;
@@ -55,36 +60,40 @@
   font: $font-body;
 }
 .code {
-  background-color: white;
+  background-color: $black-highlight;
   color: $white;
   margin: 10px;
-  width: 995px;
+  width: 725px;
   border-radius: 25px;
 }
 .code-mobile {
   display: none;
 }
-.corona-container {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 50%;
+  // border: solid;
 }
 .example-text,
 .row-text-center {
   font: $font-body;
-  margin: 50px 0;
+  margin: 30px 0;
 }
 .example-text {
   width: 100%;
 }
 .row-text-center {
   text-align: center;
-  width: 50%;
+  width: 90%;
 }
 @media only screen and (max-width: 1015px) {
 }
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 724px) {
+  .container {
+    width: 70%;
+  }
   .code {
     display: none;
   }
@@ -97,13 +106,15 @@
   }
 }
 @media only screen and (max-width: 675px) {
+  .container {
+    width: 90%;
+  }
   .row {
     flex-wrap: wrap;
   }
   .row-image {
     width: 100%;
   }
-
   .image,
   .fit-container {
     width: 100%;
