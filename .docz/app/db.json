@@ -266,17 +266,6 @@
           "actualName": "IndexPage"
         }
       ]
-    },
-    {
-      "key": "src/pages/easy-to-use2.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "EasyToUse2",
-          "methods": [],
-          "actualName": "EasyToUse2"
-        }
-      ]
     }
   ]
 }
