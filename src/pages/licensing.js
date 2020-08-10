@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "../components/payment-plans.module.scss";
+import TCButton from "../components/button";
 const check = <FontAwesomeIcon className={styles.icon} icon={faCheckCircle} />;
 
 function Licensing() {
@@ -74,35 +75,37 @@ function Licensing() {
       ></SEO>
       <div className={styles.container}>
         <h1 className={styles.pageTitle}>Our Licences</h1>
-        <h2 className={styles.pageSubtitle}>TotalCross is LGPL v2.1</h2>
 
         <div className={styles.content}>
-          <div className={styles.text}>
-            TotalCross is open source under LGPL v2.1. That means:
-            <br />
-            <br />
-            <ul>
-              <li>
-                If you will use TotalCross for a personal project that will not
-                be shared with anyone, you don't need to worry about licence
-                demands.
-              </li>
+          <div>
+            <h2 className={styles.pageSubtitle}>TotalCross is LGPL v2.1</h2>
+            <div className={styles.text}>
+              TotalCross is open source under LGPL v2.1. That means:
               <br />
-              <li>
-                If you will show your project to others, you just need to make
-                it clear that you are using TotalCross, include TotalCross
-                source code, and with that let people know that LGPL'd software
-                is being used in your work. As long as you do that you are
-                covered to give your work away or sell it.
-              </li>
               <br />
-              <li>
-                If you make any changes to TotalCross code you will need to send
-                these changes back to TotalCross. If you did something really
-                clever we'll definetelly consider adding it to a future version,
-                so that more people can benefit from it.
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  If you will use TotalCross for a personal project that will
+                  not be shared with anyone, you don't need to worry about
+                  licence demands.
+                </li>
+                <br />
+                <li>
+                  If you will show your project to others, you just need to make
+                  it clear that you are using TotalCross, include TotalCross
+                  source code, and with that let people know that LGPL'd
+                  software is being used in your work. As long as you do that
+                  you are covered to give your work away or sell it.
+                </li>
+                <br />
+                <li>
+                  If you make any changes to TotalCross code you will need to
+                  send these changes back to TotalCross. If you did something
+                  really clever we'll definetelly consider adding it to a future
+                  version, so that more people can benefit from it.
+                </li>
+              </ul>
+            </div>
           </div>
           <div className={styles.cardsContainer}>
             {plan1.map((plan) => (
@@ -135,52 +138,26 @@ function Licensing() {
             ))}
           </div>
         </div>
-        <div className={styles.image}>
+        <div>
           <Img
+            className={styles.image}
             fixed={data.image.childImageSharp.fixed}
             alt="infographic explaining requeriments for LGPL v2.1"
           />
         </div>
 
-        <h2 className={styles.pageSubtitle}>
-          TotalCross also has a commercial licence
-        </h2>
-        <div className={styles.content}>
-          <div className={styles.text}>
-            If complying with the requeriments outlined above doesn't quite fit
-            your needs, we also have a commercial licence. <br />
-            <br />
-            Contact us if you wish to know more about it.
-          </div>
-          <div className={styles.cardsContainer}>
-            {plan2.map((plan) => (
-              <div className={styles.card}>
-                <h3 className={styles.cardTitle}>{plan.title}</h3>
-                <h5 className={styles.cardSubtitle}>{plan.license}</h5>
-                <ul className={styles.cardList}>
-                  {plan.features.map((item) => (
-                    <li className={styles.cardListItem}>
-                      <div className={styles.bulletPoint}>
-                        <div className={styles.bulletPointBackground}></div>
-                        <div className={styles.bulletPointIcon}>{check}</div>
-                      </div>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-                <a href={plan.button.url} target="_blank" rel="noreferrer">
-                  {plan.button.style === "primary" ? (
-                    <button className={styles.cardButtonGetStarted}>
-                      {plan.button.text}
-                    </button>
-                  ) : (
-                    <button className={styles.cardButtonContact}>
-                      {plan.button.text}
-                    </button>
-                  )}
-                </a>
-              </div>
-            ))}
+        <div className={styles.content2}>
+          <h2 className={styles.pageSubtitle2}>
+            TotalCross has also a commercial licence
+          </h2>
+          <div className={styles.content2}>
+            <div className={styles.text2}>
+              If complying with the requeriments outlined above doesn't quite
+              fit your needs, we also have a commercial licence. <br />
+              <br />
+              Contact us if you wish to know more about it.
+            </div>
+            <TCButton color={"green"} text={"Contact us"} path={CONTACT} />
           </div>
         </div>
       </div>

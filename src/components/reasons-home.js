@@ -1,10 +1,11 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import CallToAction from "./call-to-action";
 
 import styles from "./reasons-home.module.scss";
 import HelloWorldGIF from "../imgs/TotalCrossHelloWorld.gif";
+import { WHYTC, CROSS, EASY } from "../utils/links";
 
 function Reasons() {
   const data = useStaticQuery(graphql`
@@ -42,54 +43,59 @@ function Reasons() {
   return (
     <div>
       <div className={styles.containerIcons}>
-        <div className={styles.containerIcon}>
-          <div className={styles.icon}>
-            <Img
-              fixed={data.low.childImageSharp.fixed}
-              alt="low footprint icon"
-            />
-          </div>
-          <div className={styles.iconTextArea}>
-            <div className={styles.iconTitle}>Low Footprint</div>
-            <div className={styles.iconText}>
-              Less than 10MB of footprint, ensuring high performance even when
-              running in low-end devices
+        <Link to={WHYTC}>
+          <div className={styles.containerIcon}>
+            <div className={styles.icon}>
+              <Img
+                fixed={data.low.childImageSharp.fixed}
+                alt="low footprint icon"
+              />
+            </div>
+            <div className={styles.iconTextArea}>
+              <div className={styles.iconTitle}>Low Footprint</div>
+              <div className={styles.iconText}>
+                Less than 10MB of footprint, ensuring high performance even when
+                running in low-end devices
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className={styles.containerIcon}>
-          <div className={styles.icon}>
-            <Img
-              fixed={data.test.childImageSharp.fixed}
-              alt="test footprint icon"
-            />
-          </div>
-          <div className={styles.iconTextArea}>
-            <div className={styles.iconTitle}>Easy to use GUI Creator</div>
-            <div className={styles.iconText}>
-              Basic knowledge of Java or Kotlin lets you build performing Apps
-              for Android, Linux Arm, Windows and iOS.
+        </Link>
+        <Link to={EASY}>
+          <div className={styles.containerIcon}>
+            <div className={styles.icon}>
+              <Img
+                fixed={data.test.childImageSharp.fixed}
+                alt="test footprint icon"
+              />
+            </div>
+            <div className={styles.iconTextArea}>
+              <div className={styles.iconTitle}>Easy to use GUI Creator</div>
+              <div className={styles.iconText}>
+                Basic knowledge of Java or Kotlin lets you build performing Apps
+                for Android, Linux Arm, Windows and iOS.
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className={styles.containerIcon}>
-          <div className={styles.icon}>
-            <Img
-              fixed={data.devices.childImageSharp.fixed}
-              alt="desktop tablet and mobile icon"
-            />
-          </div>
-          <div className={styles.iconTextArea}>
-            <div className={styles.iconTitle}>Cross-Platform</div>
-            <div className={styles.iconText}>
-              Code once and run on every platform. Responsive User Interfaces
-              providing same behaviour and usability.
+        </Link>
+        <Link to={CROSS}>
+          <div className={styles.containerIcon}>
+            <div className={styles.icon}>
+              <Img
+                fixed={data.devices.childImageSharp.fixed}
+                alt="desktop tablet and mobile icon"
+              />
+            </div>
+            <div className={styles.iconTextArea}>
+              <div className={styles.iconTitle}>Cross-Platform</div>
+              <div className={styles.iconText}>
+                Code once and run on every platform. Responsive User Interfaces
+                providing same behaviour and usability.
+              </div>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
+
       <div className={styles.containerCodeImage}>
         <img
           className={styles.image}

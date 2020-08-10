@@ -268,46 +268,46 @@
       ]
     },
     {
-      "key": "src/components/code-snippets/import-corona.js",
+      "key": "src/components/navbar.js",
       "value": [
         {
           "description": "",
-          "displayName": "ImportCorona",
+          "displayName": "NavBar",
           "methods": [],
-          "actualName": "ImportCorona"
+          "actualName": "NavBar"
         }
       ]
     },
     {
-      "key": "src/components/code-snippets/title-corona.js",
+      "key": "src/pages/pricing.js",
       "value": [
         {
           "description": "",
-          "displayName": "TitleCorona",
+          "displayName": "Pricing",
           "methods": [],
-          "actualName": "TitleCorona"
+          "actualName": "Pricing"
         }
       ]
     },
     {
-      "key": "src/components/code-snippets/button-corona.js",
+      "key": "src/pages/licensing.js",
       "value": [
         {
           "description": "",
-          "displayName": "ButtonCorona",
+          "displayName": "Licensing",
           "methods": [],
-          "actualName": "ButtonCorona"
+          "actualName": "Licensing"
         }
       ]
     },
     {
-      "key": "src/pages/easy-to-use.js",
+      "key": "src/components/reasons-home.js",
       "value": [
         {
           "description": "",
-          "displayName": "EasyToUse",
+          "displayName": "Reasons",
           "methods": [],
-          "actualName": "EasyToUse"
+          "actualName": "Reasons"
         }
       ]
     }

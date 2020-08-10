@@ -6,8 +6,10 @@ export const TUTORIALSPAGE = "/tutorials";
 export const CONTACT = "/contact";
 export const COMMUNITY = "/community";
 export const EVENTS = "/events";
-export const PRICING = "/pricing";
+export const PRICING = "/licensing";
 export const WHYTC = "/low-footprint";
+export const EASY = "/easy-to-use";
+export const CROSS = "/cross-platform";
 export const ENTERPRISE = "http://www.superwaba.net/SDKRegistrationService/";
 export const DOCS =
   "https://learn.totalcross.com/?utm_source=site&utm_medium=principal";

@@ -44,7 +44,7 @@ function NavBar() {
             why totalcross?
           </Link>
           <Link className={styles.navItem} to={PRICING}>
-            pricing
+            LICENSING
           </Link>
           <a
             className={styles.navItem}
