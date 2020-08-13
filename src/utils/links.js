@@ -1,5 +1,5 @@
 export const GET_STARTED =
-  "https://learn.totalcross.com/documentation/get-started";
+  "https://learn.totalcross.com/documentation/get-started?utm_source=site&utm_medium=button&utm_campaign=tc_site";
 export const ABOUT = "/about-us";
 export const ARTICLES = "/articles";
 export const TUTORIALSPAGE = "/tutorials";
