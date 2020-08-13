@@ -266,50 +266,6 @@
           "actualName": "IndexPage"
         }
       ]
-    },
-    {
-      "key": "src/components/navbar.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "NavBar",
-          "methods": [],
-          "actualName": "NavBar"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/pricing.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Pricing",
-          "methods": [],
-          "actualName": "Pricing"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/licensing.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Licensing",
-          "methods": [],
-          "actualName": "Licensing"
-        }
-      ]
-    },
-    {
-      "key": "src/components/reasons-home.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Reasons",
-          "methods": [],
-          "actualName": "Reasons"
-        }
-      ]
     }
   ]
 }
