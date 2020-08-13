@@ -17,6 +17,7 @@ export const FORUM = "https://forum.totalcross.com/";
 export const TWITTER = "https://twitter.com/TotalCross";
 export const TELEGRAM = "https://t.me/totalcrosscommunity";
 export const GITHUB = "https://github.com/TotalCross/totalcross";
+export const GITHUB_CORONA = "https://github.com/TotalCross/corona-chart-app";
 export const GITHUB_ISSUES = "https://github.com/TotalCross/totalcross/issues";
 export const GITHUB_DOCS = "https://github.com/TotalCross/totalcross-docs";
 export const YOUTUBE = "https://bit.ly/youtube-totalcross";

@@ -266,6 +266,17 @@
           "actualName": "IndexPage"
         }
       ]
+    },
+    {
+      "key": "src/pages/easy-to-use.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "EasyToUse",
+          "methods": [],
+          "actualName": "EasyToUse"
+        }
+      ]
     }
   ]
 }
