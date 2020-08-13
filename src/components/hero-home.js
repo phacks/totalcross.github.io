@@ -28,7 +28,7 @@ function HeroHome() {
           The fastest way to build GUI for embedded devices
         </h1>
         <h4 className={styles.subtitle}>
-          Open Source SDK providing a fast and easy way build beautiful User
+          Open Source SDK providing a fast and easy way to build beautiful User
           Interfaces for Embedded, IoT, mobile, desktop, everything.
         </h4>
         <CallToAction color="green" />
