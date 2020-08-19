@@ -152,7 +152,7 @@ function Licensing() {
           </h2>
           <div className={styles.content2}>
             <div className={styles.text2}>
-              If complying with the requeriments outlined above doesn't quite
+              If complying with the requirements outlined above doesn't quite
               fit your needs, we also have a commercial licence. <br />
               <br />
               Contact us if you wish to know more about it.
