@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
 import styles from "./partners.module.scss";
+import { PARTNERS } from "../utils/links";
 
 function Partners() {
   const data = useStaticQuery(graphql`
@@ -44,30 +45,52 @@ function Partners() {
           }
         }
       }
+      ossys: file(relativePath: { eq: "src/imgs/os-systems.png" }) {
+        childImageSharp {
+          fixed(width: 250, height: 32) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
     }
   `);
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <Img
-          fixed={data.bnb.childImageSharp.fixed}
-          alt="Banco do Nordeste logo"
-        />
+        <a href={PARTNERS.BANCONOR} target="_blank" rel="noreferrer">
+          <Img
+            fixed={data.bnb.childImageSharp.fixed}
+            alt="Banco do Nordeste logo"
+          />
+        </a>
       </div>
       <div className={styles.logo}>
-        <Img fixed={data.toradex.childImageSharp.fixed} alt="Toradex logo" />
+        <a href={PARTNERS.TORADEX} target="_blank" rel="noreferrer">
+          <Img fixed={data.toradex.childImageSharp.fixed} alt="Toradex logo" />
+        </a>
       </div>
       <div className={styles.logo}>
-        <Img
-          fixed={data.uniaveiro.childImageSharp.fixed}
-          alt="Aveiro University logo"
-        />
+        <a href={PARTNERS.UNIAVEIRO} target="_blank" rel="noreferrer">
+          <Img
+            fixed={data.uniaveiro.childImageSharp.fixed}
+            alt="Aveiro University logo"
+          />
+        </a>
       </div>
       <div className={styles.logo}>
-        <Img fixed={data.scandit.childImageSharp.fixed} alt="Scandit logo" />
+        <a href={PARTNERS.SCANDIT} target="_blank" rel="noreferrer">
+          <Img fixed={data.scandit.childImageSharp.fixed} alt="Scandit logo" />
+        </a>
       </div>
       <div className={styles.logo}>
-        <Img fixed={data.unifor.childImageSharp.fixed} alt="Unifor logo" />
+        <a href={PARTNERS.UNIFOR} target="_blank" rel="noreferrer">
+          <Img fixed={data.unifor.childImageSharp.fixed} alt="Unifor logo" />
+        </a>
+      </div>
+      <div className={styles.logo}>
+        <a href={PARTNERS.OSSYS} target="_blank" rel="noreferrer">
+          <Img fixed={data.ossys.childImageSharp.fixed} alt="OS Systems logo" />
+        </a>
       </div>
     </div>
   );

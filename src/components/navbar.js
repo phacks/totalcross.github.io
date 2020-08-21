@@ -3,10 +3,23 @@ import { Link } from "gatsby";
 import { Navbar, Nav } from "react-bootstrap";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
-import { WHYTC, COMMUNITY, DOCS, PRICING, ENTERPRISE } from "../utils/links";
+import {
+  WHYTC,
+  COMMUNITY,
+  DOCS,
+  PRICING,
+  ENTERPRISE,
+  GITHUB,
+  GET_STARTED,
+} from "../utils/links";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import SocialNetwork from "../utils/social-network";
 
-import SocialNetworks from "../utils/social-networks";
 import styles from "./navbar.module.scss";
+import TCButton from "./button";
+
+const snGit = <FontAwesomeIcon className={styles.icon} icon={faGithub} />;
 
 function NavBar() {
   const data = useStaticQuery(graphql`
@@ -69,7 +82,18 @@ function NavBar() {
       </Navbar.Collapse>
       {/* </div> */}
       <div className={styles.socialNetworks}>
-        <SocialNetworks />
+        <div
+          style={{
+            marginRight: "20px",
+            marginLeft: "-20px",
+            fontSize: "25px",
+          }}
+        >
+          <SocialNetwork icon={snGit} link={GITHUB} />
+        </div>
+        <div className={styles.gsButton}>
+          <a href={GET_STARTED}>GET STARTED</a>
+        </div>
       </div>
     </Navbar>
   );

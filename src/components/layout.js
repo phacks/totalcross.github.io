@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-hj-ignore-attributes>
       <Helmet>
         <link rel="icon" href={favicon} />
       </Helmet>

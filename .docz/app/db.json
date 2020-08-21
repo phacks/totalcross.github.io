@@ -268,13 +268,13 @@
       ]
     },
     {
-      "key": "src/pages/easy-to-use.js",
+      "key": "src/components/hero-home.js",
       "value": [
         {
           "description": "",
-          "displayName": "EasyToUse",
+          "displayName": "HeroHome",
           "methods": [],
-          "actualName": "EasyToUse"
+          "actualName": "HeroHome"
         }
       ]
     }

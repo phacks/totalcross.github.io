@@ -25,8 +25,16 @@ export const YOUTUBE_PLAYLIST_EVENTS =
   "https://www.youtube.com/playlist?list=PL0yZb3JwIr_P_aKR5QFUQOAVg4o06RkxI";
 export const LINKEDIN = "https://linkedin.com/company/totalcross";
 export const MEDIUM = "https://medium.com/totalcross-community";
-
+export const INSTAGRAM = "https://www.instagram.com/totalcross/";
 export const WEBINARS = ["https://yourapp.totalcross.com/tctalks_smarthome"];
+export const PARTNERS = {
+  BANCONOR: "https://www.bnb.gov.br/",
+  TORADEX: "https://www.toradex.com",
+  OSSYS: "https://www.ossystems.com.br/",
+  UNIAVEIRO: "https://www.ua.pt/",
+  SCANDIT: "https://www.scandit.com/",
+  UNIFOR: "https://www.unifor.br/",
+};
 
 export const VIDEOS = [
   {
