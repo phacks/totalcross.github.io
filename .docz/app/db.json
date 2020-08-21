@@ -266,17 +266,6 @@
           "actualName": "IndexPage"
         }
       ]
-    },
-    {
-      "key": "src/components/hero-home.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "HeroHome",
-          "methods": [],
-          "actualName": "HeroHome"
-        }
-      ]
     }
   ]
 }

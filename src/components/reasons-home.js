@@ -4,8 +4,8 @@ import Img from "gatsby-image";
 import CallToAction from "./call-to-action";
 
 import styles from "./reasons-home.module.scss";
-import HelloWorldGIF from "../imgs/TotalCrossHelloWorld.gif";
-import { WHYTC, CROSS, EASY } from "../utils/links";
+import HelloWorldGIF from "../imgs/TCHA.gif";
+import { WHYTC, CROSS, EASY, PLATFORMS, CONFIG } from "../utils/links";
 
 function Reasons() {
   const data = useStaticQuery(graphql`
@@ -38,6 +38,20 @@ function Reasons() {
           }
         }
       }
+      config: file(relativePath: { eq: "src/imgs/settings.png" }) {
+        childImageSharp {
+          fixed(width: 80, quality: 100) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      rasp: file(relativePath: { eq: "src/imgs/raspberry.png" }) {
+        childImageSharp {
+          fixed(width: 80, quality: 100) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
     }
   `);
   return (
@@ -54,7 +68,7 @@ function Reasons() {
             <div className={styles.iconTextArea}>
               <div className={styles.iconTitle}>Low Footprint</div>
               <div className={styles.iconText}>
-                Less than 10MB of footprint, ensuring high performance even when
+                Less than 5MB of footprint, ensuring high performance even when
                 running in low-end devices
               </div>
             </div>
@@ -90,6 +104,41 @@ function Reasons() {
               <div className={styles.iconText}>
                 Code once and run on every platform. Responsive User Interfaces
                 providing same behaviour and usability.
+              </div>
+            </div>
+          </div>
+        </Link>
+      </div>
+
+      <div className={styles.containerIcons}>
+        <Link to={PLATFORMS}>
+          <div className={styles.containerIcon}>
+            <div className={styles.icon}>
+              <Img fixed={data.config.childImageSharp.fixed} alt="cogs icon" />
+            </div>
+            <div className={styles.iconTextArea}>
+              <div className={styles.iconTitle}>Min Configuration</div>
+              <div className={styles.iconText}>
+                256MB RAM, CPU Arm A7 528MHz and no GPU
+              </div>
+            </div>
+          </div>
+        </Link>
+        <Link to={CONFIG}>
+          <div className={styles.containerIcon}>
+            <div className={styles.icon}>
+              <Img
+                fixed={data.rasp.childImageSharp.fixed}
+                alt="raspberry pi icon"
+              />
+            </div>
+            <div className={styles.iconTextArea}>
+              <div className={styles.iconTitle}>
+                Supported Embedded Platforms
+              </div>
+              <div className={styles.iconText}>
+                Raspberry Pi 4, 3, and 2, Beaglebone Black, Toradex Colibri,
+                Verdin and Apalis.
               </div>
             </div>
           </div>

@@ -5,14 +5,17 @@ export const ARTICLES = "/articles";
 export const TUTORIALSPAGE = "/tutorials";
 export const CONTACT = "/contact";
 export const COMMUNITY = "/community";
+export const DOCS =
+  "https://learn.totalcross.com/?utm_source=site&utm_medium=principal";
 export const EVENTS = "/events";
 export const PRICING = "/licensing";
 export const WHYTC = "/low-footprint";
 export const EASY = "/easy-to-use";
 export const CROSS = "/cross-platform";
+export const CONFIG =
+  "https://learn.totalcross.com/documentation/guides/understanding-totalcross-for-linux-arm";
+export const PLATFORMS = DOCS;
 export const ENTERPRISE = "http://www.superwaba.net/SDKRegistrationService/";
-export const DOCS =
-  "https://learn.totalcross.com/?utm_source=site&utm_medium=principal";
 export const FORUM = "https://forum.totalcross.com/";
 export const TWITTER = "https://twitter.com/TotalCross";
 export const TELEGRAM = "https://t.me/totalcrosscommunity";

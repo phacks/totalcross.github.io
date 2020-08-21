@@ -6,10 +6,13 @@
   justify-content: center;
   text-align: center;
   background-color: $bcg-sec;
-  padding: 100px 0 50px;
+  padding: 100px 0 0;
+  // border: solid;
 }
 .container-icon {
   padding: 10px;
+  width: 25vw;
+  // border: solid;
 }
 
 .icon-title {
