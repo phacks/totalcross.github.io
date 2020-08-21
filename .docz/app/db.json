@@ -105,6 +105,52 @@
       }
     },
     {
+      "key": "src/docs/accordion-container.md",
+      "value": {
+        "name": "Accordion Container",
+        "menu": "Components",
+        "route": "/docs/accordion-container",
+        "id": "f71a0527b2ea39ea060ad1d01ccb1aa2",
+        "filepath": "src/docs/accordion-container.md",
+        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/src/docs/accordion-container.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/accordion-container.md",
+        "hidden": false,
+        "slug": "src-docs-accordion-container",
+        "headings": [
+          {
+            "slug": "accordion-container",
+            "depth": 1,
+            "value": "Accordion Container"
+          },
+          {
+            "slug": "overview",
+            "depth": 2,
+            "value": "Overview"
+          },
+          {
+            "slug": "source-code",
+            "depth": 2,
+            "value": "Source Code"
+          },
+          {
+            "slug": "attributes",
+            "depth": 2,
+            "value": "Attributes"
+          },
+          {
+            "slug": "methods",
+            "depth": 2,
+            "value": "Methods"
+          },
+          {
+            "slug": "references",
+            "depth": 3,
+            "value": "References"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/docs/index.mdx",
       "value": {
         "name": "Home",
@@ -126,6 +172,62 @@
             "slug": "consistency",
             "depth": 2,
             "value": "Consistency"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/assets/components.md",
+      "value": {
+        "id": "324fb95359819d310f9fe28dd5a5a1b9",
+        "filepath": "src/docs/assets/components.md",
+        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/src/docs/assets/components.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/assets/components.md",
+        "hidden": false,
+        "slug": "src-docs-assets-components",
+        "route": "/src-docs-assets-components",
+        "name": "Components",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "examples",
+            "depth": 1,
+            "value": "Examples"
+          },
+          {
+            "slug": "macro-property-1-in-the-check-case-box-and-text-with-different-colors",
+            "depth": 1,
+            "value": "Macro property 1 (in the Check case  Box and text with different colors )"
+          },
+          {
+            "slug": "macro-property-2-in-the-check-case-custom-left-gap",
+            "depth": 1,
+            "value": "Macro property 2 (in the Check case  Custom left gap )"
+          },
+          {
+            "slug": "macro-property-3-in-the-check-case-responsive-text-split",
+            "depth": 1,
+            "value": "Macro property 3 (in the Check case  Responsive text split )"
+          },
+          {
+            "slug": "behind-the-class",
+            "depth": 1,
+            "value": "Behind the Class"
+          },
+          {
+            "slug": "attributes",
+            "depth": 2,
+            "value": "Attributes"
+          },
+          {
+            "slug": "methods",
+            "depth": 2,
+            "value": "Methods"
+          },
+          {
+            "slug": "references",
+            "depth": 1,
+            "value": "References"
           }
         ]
       }
@@ -264,6 +366,39 @@
           "displayName": "IndexPage",
           "methods": [],
           "actualName": "IndexPage"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Header/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Header",
+          "methods": [],
+          "actualName": "Header"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Logo/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Logo",
+          "methods": [],
+          "actualName": "Logo"
+        }
+      ]
+    },
+    {
+      "key": "src/components/reasons-home.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Reasons",
+          "methods": [],
+          "actualName": "Reasons"
         }
       ]
     }

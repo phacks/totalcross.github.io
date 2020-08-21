@@ -1,11 +1,15 @@
 import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import Img from "gatsby-image";
-import CallToAction from "./call-to-action";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./reasons-home.module.scss";
 import HelloWorldGIF from "../imgs/TCHA.gif";
 import { WHYTC, CROSS, EASY, PLATFORMS, CONFIG } from "../utils/links";
+import TCButton from "./button";
+
+const snGit = <FontAwesomeIcon className={styles.icon} icon={faGithub} />;
 
 function Reasons() {
   const data = useStaticQuery(graphql`
@@ -117,7 +121,7 @@ function Reasons() {
               <Img fixed={data.config.childImageSharp.fixed} alt="cogs icon" />
             </div>
             <div className={styles.iconTextArea}>
-              <div className={styles.iconTitle}>Min Configuration</div>
+              <div className={styles.iconTitle}>Minimum Requirements</div>
               <div className={styles.iconText}>
                 256MB RAM, CPU Arm A7 528MHz and no GPU
               </div>
@@ -159,7 +163,11 @@ function Reasons() {
             experience to your embedded systems.
           </p>
           <p>All while delivering native performance with a low footprint.</p>
-          <CallToAction color="black" />
+          <TCButton
+            color="black"
+            text="Check our Samples"
+            path="https://github.com/TotalCross/totalcross-embedded-samples"
+          />
         </div>
       </div>
     </div>
