@@ -1,0 +1,89 @@
+@import "../utils/colors.scss";
+@import "../utils/variables.scss";
+
+.container,
+.downloads {
+  //   background-color: $bcg-sec;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.download {
+  display: flex;
+  flex-direction: row;
+  color: $white;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  text-align: left;
+  background-color: $white;
+  border: solid $black;
+  border-radius: 25px;
+  margin: 20px 0;
+}
+.download-text {
+  background-color: $black;
+  margin: 1px;
+  padding: 5px;
+  border-radius: 0 25px 25px 0;
+}
+.page-title,
+.page-h2 {
+  color: $white;
+  font: $font-h1;
+  padding-top: $title-padding-top-desktop;
+  padding-bottom: 50px;
+}
+.page-h2 {
+  font: $font-h2;
+}
+.page-h3 {
+  background-color: $white;
+  color: $black;
+  font: $font-h3;
+  min-width: 80px;
+  margin: 20px;
+  height: 100%;
+}
+.dependencies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.dependency {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.text {
+  color: $white;
+  padding: 0 10px;
+  min-width: 220px;
+  max-width: 320px;
+  text-align: left;
+}
+.number {
+  color: $black;
+  font-size: 40px;
+  line-height: 50px;
+  background-color: $white;
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 675px) {
+  .dependency {
+    padding: 5px 0;
+  }
+  .text {
+    padding: 0 0 0 10px;
+    min-width: 265px;
+    max-width: 265px;
+  }
+}

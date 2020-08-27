@@ -231,6 +231,67 @@
           }
         ]
       }
+    },
+    {
+      "key": "src/docs/md/get-started/environment-setup.md",
+      "value": {
+        "name": "1. Environment setup",
+        "route": "/docs/get-started",
+        "menu": "Get Started",
+        "id": "1bc464d42b753abbb10f5ec91325b03d",
+        "filepath": "src/docs/md/get-started/environment-setup.md",
+        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/src/docs/md/get-started/environment-setup.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/md/get-started/environment-setup.md",
+        "hidden": false,
+        "slug": "src-docs-md-get-started-environment-setup",
+        "headings": [
+          {
+            "slug": "totalcross---get-started",
+            "depth": 1,
+            "value": "TotalCross - GET STARTED"
+          },
+          {
+            "slug": "prepare-your-environment",
+            "depth": 3,
+            "value": "Prepare your environment"
+          },
+          {
+            "slug": "download-the-totalcross-sdk",
+            "depth": 3,
+            "value": "DOWNLOAD THE TOTALCROSS SDK"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/md/get-started/first-embedded-project.md",
+      "value": {
+        "name": "3. First embedded project",
+        "route": "/docs/get-started/first-embedded-project",
+        "menu": "Get Started",
+        "id": "37e02740f342a5fdbbd6c343558301a7",
+        "filepath": "src/docs/md/get-started/first-embedded-project.md",
+        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/src/docs/md/get-started/first-embedded-project.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/md/get-started/first-embedded-project.md",
+        "hidden": false,
+        "slug": "src-docs-md-get-started-first-embedded-project",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/docs/md/get-started/hello-world.md",
+      "value": {
+        "name": "2. Hello world",
+        "route": "/docs/get-started/hello-world",
+        "menu": "Get Started",
+        "id": "a01c7fc20e3a8bd68bcef2d68fefa5f5",
+        "filepath": "src/docs/md/get-started/hello-world.md",
+        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/src/docs/md/get-started/hello-world.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/md/get-started/hello-world.md",
+        "hidden": false,
+        "slug": "src-docs-md-get-started-hello-world",
+        "headings": []
+      }
     }
   ],
   "props": [
@@ -392,13 +453,13 @@
       ]
     },
     {
-      "key": "src/components/reasons-home.js",
+      "key": "src/pages/get-started.js",
       "value": [
         {
           "description": "",
-          "displayName": "Reasons",
+          "displayName": "GetStarted",
           "methods": [],
-          "actualName": "Reasons"
+          "actualName": "GetStarted"
         }
       ]
     }
