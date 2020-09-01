@@ -12,6 +12,8 @@ import ButtonCorona from "../components/code-snippets/button-corona";
 import TitleCorona from "../components/code-snippets/title-corona";
 import TCButton from "../components/button";
 
+import LedGIF from "../imgs/led-totalcross.gif";
+
 import styles from "./get-started.module.scss";
 
 const GetStarted = () => {
@@ -177,6 +179,20 @@ const GetStarted = () => {
             helpfull, please drop us a line in our Telegram Community.
           </p>
         </div>
+        <h2 className={styles.pageH2}>
+          First embedded project with TotalCross
+        </h2>
+        <div className={styles.helloWorld}>
+          <p>
+            Follow this step by step tutorial on how to build your first
+            embedded application using TotalCross.
+          </p>
+        </div>
+        <img
+          className={styles.image}
+          src={LedGIF}
+          alt="Raspberry Pi 3 with a led and GUI application"
+        />
       </div>
     </Layout>
   );
