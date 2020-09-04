@@ -19,7 +19,9 @@ import styles from "../components/video.module.scss";
 function Events() {
   const data = useStaticQuery(graphql`
     query {
-      webinar: file(relativePath: { eq: "src/imgs/webinars/tctalks03.png" }) {
+      webinar: file(
+        relativePath: { eq: "src/imgs/webinars/moreinfosoon.png" }
+      ) {
         childImageSharp {
           fixed(width: 300, height: 200) {
             ...GatsbyImageSharpFixed
