@@ -42,7 +42,7 @@ function Reasons() {
           }
         }
       }
-      config: file(relativePath: { eq: "src/imgs/settings.png" }) {
+      config: file(relativePath: { eq: "src/imgs/raspberry.png" }) {
         childImageSharp {
           fixed(width: 80, quality: 100) {
             ...GatsbyImageSharpFixed
