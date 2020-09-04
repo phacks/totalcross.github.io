@@ -35,21 +35,14 @@ function Reasons() {
           }
         }
       }
-      code: file(relativePath: { eq: "src/imgs/tccode.png" }) {
-        childImageSharp {
-          fixed(width: 534, quality: 100) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      config: file(relativePath: { eq: "src/imgs/raspberry.png" }) {
+      config: file(relativePath: { eq: "src/imgs/cross.png" }) {
         childImageSharp {
           fixed(width: 80, quality: 100) {
             ...GatsbyImageSharpFixed
           }
         }
       }
-      rasp: file(relativePath: { eq: "src/imgs/raspberry.png" }) {
+      rasp: file(relativePath: { eq: "src/imgs/cross.png" }) {
         childImageSharp {
           fixed(width: 80, quality: 100) {
             ...GatsbyImageSharpFixed
