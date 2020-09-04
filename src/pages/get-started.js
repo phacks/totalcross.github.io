@@ -12,7 +12,7 @@ import ButtonCorona from "../components/code-snippets/button-corona";
 import TitleCorona from "../components/code-snippets/title-corona";
 import TCButton from "../components/button";
 
-import LedGIF from "../imgs/led-totalcross.gif";
+// import LedGIF from "../imgs/led-totalcross.gif";
 
 import styles from "./get-started.module.scss";
 
@@ -188,11 +188,11 @@ const GetStarted = () => {
             embedded application using TotalCross.
           </p>
         </div>
-        <img
+        {/* <img
           className={styles.image}
           src={LedGIF}
           alt="Raspberry Pi 3 with a led and GUI application"
-        />
+        /> */}
       </div>
     </Layout>
   );
