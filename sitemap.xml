@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://totalcross.com/about-us/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/articles/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/community/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/cross-platform/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/easy-to-use/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/events/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/get-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/licensing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/low-footprint/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/pricing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/tutorials/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://totalcross.com/why-totalcross/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://totalcross.com/about-us/</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://totalcross.com/articles/</loc> <changefreq>weekly</changefreq> <priority>0.8</priority> </url>
+<url> <loc>https://totalcross.com/community/</loc> <changefreq>weekly</changefreq> <priority>0.8</priority> </url>
+<url> <loc>https://totalcross.com/contact/</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://totalcross.com/cross-platform/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>https://totalcross.com/easy-to-use/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>https://totalcross.com/events/</loc> <changefreq>weekly</changefreq> <priority>0.8</priority> </url>
+<url> <loc>https://totalcross.com/get-started/</loc> <changefreq>weekly</changefreq> <priority>0.8</priority> </url>
+<url> <loc>https://totalcross.com/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>https://totalcross.com/licensing/</loc> <changefreq>weekly</changefreq> <priority>0.8</priority> </url>
+<url> <loc>https://totalcross.com/low-footprint/</loc> <changefreq>weekly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>https://totalcross.com/pricing/</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://totalcross.com/tutorials/</loc> <changefreq>weekly</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://totalcross.com/why-totalcross/</loc> <changefreq>weekly</changefreq> <priority>0.8</priority> </url>
 </urlset>
