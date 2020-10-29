@@ -4,6 +4,7 @@ import {
   faTwitter,
   faLinkedin,
   faTelegram,
+  faDiscord,
   faYoutube,
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
@@ -13,8 +14,7 @@ import {
   FORUM,
   TWITTER,
   TELEGRAM,
-  YOUTUBE,
-  MEDIUM,
+  DISCORD,
   LINKEDIN,
   ARTICLES,
   TUTORIALSPAGE,
@@ -30,8 +30,8 @@ const JoinTheConversation = () => {
   const ICON_TELEGRAM = (
     <FontAwesomeIcon className={styles.icon} icon={faTelegram} />
   );
-  const ICON_YOUTUBE = (
-    <FontAwesomeIcon className={styles.icon} icon={faYoutube} />
+  const ICON_DISCORD = (
+    <FontAwesomeIcon className={styles.icon} icon={faDiscord} />
   );
   const ICON_LINKEDIN = (
     <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
@@ -62,17 +62,22 @@ const JoinTheConversation = () => {
       text: "Telegram",
       url: TELEGRAM,
     },
+    {
+      icon: ICON_DISCORD,
+      text: "Discord",
+      url: DISCORD,
+    },
   ];
   const cards2 = [
     {
       icon: ICON_ARTICLES,
       text: "Articles",
-      url: ARTICLES,
+      route: ARTICLES,
     },
     {
       icon: ICON_VIDEO,
       text: "Video Tutorials",
-      url: TUTORIALSPAGE,
+      route: TUTORIALSPAGE,
     },
     {
       icon: ICON_LINKEDIN,
@@ -89,9 +94,13 @@ const JoinTheConversation = () => {
         ))}
       </div>
       <div className={styles.cardsContainerJoinTheConv}>
-        {cards2.map((card) => (
-          <Card icon={card.icon} text={card.text} url={card.url} />
-        ))}
+        {cards2.map((card) => {
+          return card.route ? (
+            <Card icon={card.icon} text={card.text} route={card.route} />
+          ) : (
+            <Card icon={card.icon} text={card.text} url={card.url} />
+          );
+        })}
       </div>
     </div>
   );

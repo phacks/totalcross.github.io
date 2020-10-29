@@ -11,8 +11,8 @@ function Community() {
   return (
     <Layout>
       <SEO
-        title="TotalCross Community"
-        description="Join events organized by TotalCross, become an open source contributor or engage with us on social media. Join the TotalCross Community."
+        title="TotalCross · Enjoy Our Community"
+        description="Join the TotalCross Community. We invite you to start a connection with us and with all developers using our tool."
       ></SEO>
       <HeroCommunity />
       <OurEvents />

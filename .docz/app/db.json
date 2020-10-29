@@ -50,6 +50,28 @@
           "actualName": "Logo"
         }
       ]
+    },
+    {
+      "key": "src/pages/community.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Community",
+          "methods": [],
+          "actualName": "Community"
+        }
+      ]
+    },
+    {
+      "key": "src/components/community-join-the-conversation.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "JoinTheConversation",
+          "methods": [],
+          "actualName": "JoinTheConversation"
+        }
+      ]
     }
   ]
 }
