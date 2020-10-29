@@ -16,110 +16,7 @@
       "README.md"
     ]
   },
-  "entries": [
-    {
-      "key": "src/docs/index.mdx",
-      "value": {
-        "name": "Home",
-        "route": "/docs",
-        "id": "13a8a147f67d34248cdc424d524520a5",
-        "filepath": "src/docs/index.mdx",
-        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/src/docs/index.mdx",
-        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/index.mdx",
-        "hidden": false,
-        "slug": "src-docs-index",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "totalcross-overview",
-            "depth": 1,
-            "value": "TotalCross Overview"
-          },
-          {
-            "slug": "supported-platforms",
-            "depth": 2,
-            "value": "Supported Platforms"
-          },
-          {
-            "slug": "virtual-machine-features",
-            "depth": 2,
-            "value": "Virtual Machine Features"
-          },
-          {
-            "slug": "totalcross-virtual-machine-features",
-            "depth": 3,
-            "value": "TotalCross Virtual Machine features"
-          },
-          {
-            "slug": "the-totalcross-virtual-machine-tcvm-is-a-shared-library-written-from-scratch-and-has-the-following-features",
-            "depth": 4,
-            "value": "The TotalCross Virtual Machine  ( TCVM )  is a shared library written from scratch, and has the following features:"
-          },
-          {
-            "slug": "the-totalcross-vm-also-has-a-drawback",
-            "depth": 3,
-            "value": "The TotalCross VM also has a drawback:"
-          },
-          {
-            "slug": "thread-support",
-            "depth": 2,
-            "value": "Thread Support"
-          },
-          {
-            "slug": "graphics-palette-and-color",
-            "depth": 2,
-            "value": "Graphics, Palette and Color"
-          },
-          {
-            "slug": "images",
-            "depth": 2,
-            "value": "Images"
-          },
-          {
-            "slug": "inheritance-and-delegation-event-models",
-            "depth": 2,
-            "value": "Inheritance and Delegation event models"
-          },
-          {
-            "slug": "onevent",
-            "depth": 3,
-            "value": "onEvent"
-          },
-          {
-            "slug": "listener",
-            "depth": 3,
-            "value": "Listener"
-          },
-          {
-            "slug": "security",
-            "depth": 2,
-            "value": "Security"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/docs/md/totalcross-javadoc.md",
-      "value": {
-        "name": "TotalCross Javadoc",
-        "route": "/totalcross-javadoc",
-        "menu": "TotalCross Javadoc",
-        "id": "2330b160c2aea880141f2b0e33ac180e",
-        "filepath": "src/docs/md/totalcross-javadoc.md",
-        "fullpath": "/Users/nrisbakk/Projects/newTC/totalcross-github-io/totalcross.github.io/src/docs/md/totalcross-javadoc.md",
-        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/md/totalcross-javadoc.md",
-        "hidden": false,
-        "slug": "src-docs-md-totalcross-javadoc",
-        "headings": [
-          {
-            "slug": "totalcross-javadoc",
-            "depth": 1,
-            "value": "TotalCross Javadoc"
-          }
-        ]
-      }
-    }
-  ],
+  "entries": [],
   "props": [
     {
       "key": "src/pages/index.js",
@@ -151,17 +48,6 @@
           "displayName": "Logo",
           "methods": [],
           "actualName": "Logo"
-        }
-      ]
-    },
-    {
-      "key": "src/components/reasons-home.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Reasons",
-          "methods": [],
-          "actualName": "Reasons"
         }
       ]
     }

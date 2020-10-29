@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `TOTALCROSS`,
-    titleTemplate: "%s · GUI Creator For Embedded, Mobile... Everything!",
-    description: `Open Source GUI Creator For Embedded, Mobile... Everything!!`,
+    title: "TotalCross · GUI Creator For Embedded, Mobile... Everything!",
+    description:
+      "Build beautiful and modern Graphical User Interfaces for embedded, IoTmobile and desktop. A cross-platform tool that lets you develop apps in Java.",
     author: `Totalcross`,
     siteUrl: `https://totalcross.com/`,
     url: `https://totalcross.com`,
@@ -23,6 +23,13 @@ module.exports = {
     "gatsby-theme-docz",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `totalcross-community`,
+        limit: 200,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -49,6 +56,7 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-react-head`,
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
