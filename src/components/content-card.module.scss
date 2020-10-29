@@ -17,6 +17,13 @@
   text-align: left;
   //   border: solid green;
 }
+.title h1 {
+  font: $font-h2;
+  color: $red;
+  margin-top: 50px;
+  text-align: left;
+  //   border: solid green;
+}
 .cards-container {
   display: flex;
   flex-direction: row;

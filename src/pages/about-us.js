@@ -58,12 +58,15 @@ function AboutUs() {
   return (
     <Layout>
       <SEO
-        title="TotalCross History"
-        description="TotalCross mission is  to be the software development tool most loved by Embedded Developers."
+        title="TotalCross · Our History"
+        description="TotalCross is a global Startup helping developers and companies to create
+        beautiful applications, as a free and open source tool."
       />
       <BackgroundImage Tag="section" fluid={data.bg.childImageSharp.fluid}>
         <div className={styles.container}>
-          <div className={styles.pageTitle}>Our History</div>
+          <div className={styles.pageTitle}>
+            <h1>Our History</h1>
+          </div>
           <div className={styles.timeline}>
             <Img
               fluid={data.timeline.childImageSharp.fluid}
