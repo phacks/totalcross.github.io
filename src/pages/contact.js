@@ -21,8 +21,8 @@ function Contact() {
   return (
     <Layout>
       <SEO
-        title="TotalCross - Contact us"
-        description="We at TotalCross would love to hear what you have in mind"
+        title="TotalCross · Contact Us"
+        description="Let’s talk! Please, tell us how we can help you. We are happy to be useful."
       />
       <BackgroundImage Tag="section" fluid={data.file.childImageSharp.fluid}>
         <ContactForm />
