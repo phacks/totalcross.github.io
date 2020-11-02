@@ -138,6 +138,17 @@
           "actualName": "CodeCoronaLabel"
         }
       ]
+    },
+    {
+      "key": "src/pages/get-started.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "GetStarted",
+          "methods": [],
+          "actualName": "GetStarted"
+        }
+      ]
     }
   ]
 }

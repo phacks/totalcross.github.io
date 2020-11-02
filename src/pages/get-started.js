@@ -175,7 +175,7 @@ const GetStarted = () => {
                   <a target="_blank" rel="noopener noreferrer" href={GT_ECLIPSE_VIDEO}> Eclipse</a>.
                 </p>
               </div>
-              <div className={styles.helloWorldInnerTips2}></div>
+              {/* <div className={styles.helloWorldInnerTips2}></div> */}
             </div>
           </div>
           <h2 className={styles.pageH2}>Packaging and Deployment</h2>
@@ -185,7 +185,8 @@ const GetStarted = () => {
             </div>
             <div className={styles.helloWorldInner}>
               <div className={styles.helloWorldInnerInstructions}>
-                <p>Packaging:</p>
+                <br/>
+                <h4>Packaging:</h4>
                 <p>
                   Step 1: Open VSCode Command Palette (CTRL+Shift+P on Windows,
                   ⇧⌘P on Mac) and search for <span>TotalCross: Package.</span>
@@ -195,8 +196,9 @@ const GetStarted = () => {
                   program will take place inside the folder
                   target/install/<em>~platform~</em>.
                 </p>
-
-                <p>Deployment:</p>
+                    <br/>
+                    <br/>
+                <h4>Deployment:</h4>
                 <p>
                   Deployment is currently working only for linux arm programs.
                   This feature performs the implementation and execution of the
@@ -212,6 +214,8 @@ const GetStarted = () => {
                   Step 3: See the result on a display connected to your device
                   or with a VNC client.
                 </p>
+                <br/>
+                <br/>
               </div>
             </div>
             <div className={styles.helloWorldTitle}>
