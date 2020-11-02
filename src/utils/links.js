@@ -1,5 +1,4 @@
-export const GET_STARTED =
-  "https://learn.totalcross.com/documentation/get-started?utm_source=site&utm_medium=button&utm_campaign=tc_site";
+export const GET_STARTED = "/get-started";
 export const ABOUT = "/about-us";
 export const ARTICLES = "/articles";
 export const TUTORIALSPAGE = "/tutorials";
@@ -16,6 +15,7 @@ export const CONFIG =
   "https://learn.totalcross.com/documentation/guides/understanding-totalcross-for-linux-arm";
 export const PLATFORMS = DOCS;
 export const ENTERPRISE = "http://www.superwaba.net/SDKRegistrationService/";
+export const DISCORD = "https://discord.gg/KWwtDP5";
 export const FORUM = "https://forum.totalcross.com/";
 export const TWITTER = "https://twitter.com/TotalCross";
 export const TELEGRAM = "https://t.me/totalcrosscommunity";
@@ -112,3 +112,18 @@ export const TUTORIALS = [
     last: true,
   },
 ];
+// Get started links
+export const INSTALL_VSCODE = "https://learn.totalcross.com/documentation/miscelaneous/installing-visual-studio-code";
+export const INSTALL_JAVA11 = "https://adoptopenjdk.net/";
+export const INSTALL_JAVA8 = "https://adoptopenjdk.net/";
+export const INSTALL_MAVEN = "https://learn.totalcross.com/documentation/miscelaneous/maven";
+export const TC_VSCODE_PLUGIN = "https://marketplace.visualstudio.com/items?itemName=totalcross.vscode-totalcross";
+export const AZUL_TERMS = "https://www.azul.com/products/zulu-and-zulu-enterprise/zulu-terms-of-use/";
+export const CHANGE_JAVA_MAVEN_PLUGIN = "https://github.com/TotalCross/totalcross-maven-plugin/releases/tag/v2.0.0";
+export const TC_HELLO_REPO = "https://github.com/TotalCross/hello-world";
+export const GT_INTELLIJ_VIDEO = "https://www.youtube.com/watch?v=RqENaIW81oU";
+export const GT_INTELLIJ_ARTICLE = "https://medium.com/totalcross-community/getting-started-with-totalcross-using-intellij-ide-3ed8e6aae987";
+export const GT_ECLIPSE_VIDEO = "https://www.youtube.com/watch?v=J-3EM2eUDPY&t=2s";
+export const GT_ECLIPSE_ARTICLE = "https://medium.com/totalcross-community/getting-started-with-totalcross-using-eclipse-ide-d2bdb14fc986";
+export const GT_VSCODE_ARTICLE = "https://medium.com/totalcross-community/getting-started-with-totalcross-using-vscode-ide-d960dfda2b7";
+export const FIRST_EMBEDDED_PROJECT = "https://medium.com/totalcross-community/first-embedded-project-with-totalcross-3c43acd8de6d";

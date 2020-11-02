@@ -34,11 +34,11 @@ function Events() {
   return (
     <Layout>
       <SEO
-        title="TotalCross Events"
-        description="A list of webinars on how to code embedded applications with Java or Kotlin using TotalCross"
+        title="TotalCross · Enjoy Our Events"
+        description="Stay updated by participating in our events. Enjoy webinars and learn to code with Java or Kotlin using TotalCross."
       ></SEO>
       <div className={styles.container}>
-        <h2 className={styles.firstTitle}>Watch our past webinars</h2>
+        <h1 className={styles.firstTitle}>Watch our past webinars</h1>
         <div className={styles.videosContainer}>
           {videos.map((video) => (
             <div className={styles.videoContainer}>

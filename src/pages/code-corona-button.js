@@ -11,7 +11,7 @@ const CodeCoronaButton = () => {
         <ButtonCorona />
       </div>
       <div className={styles.button}>
-        <TCButton color="black" text="BACK" path="/easy-to-use2" />
+        <TCButton color="black" text="BACK" path="/easy-to-use" />
       </div>
     </div>
   );

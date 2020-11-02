@@ -1,7 +1,7 @@
 @import "../utils/colors.scss";
 @import "../utils/variables.scss";
 
-pre {
+.code pre {
   color: ghostwhite;
 }
 .row {
@@ -40,8 +40,8 @@ pre {
   flex-direction: column;
   justify-content: center;
 }
-.row-title,
-.row-title2 {
+.row-title h1,
+.row-title2 h2 {
   // border: solid green;
   font: $font-h2;
   color: $red;
@@ -50,7 +50,7 @@ pre {
 
   //   width: 50%;
 }
-.row-title2 {
+.row-title2 h2 {
   margin-top: 20px;
   padding: 0;
   width: 100%;
@@ -103,8 +103,8 @@ pre {
   .code-mobile {
     display: block;
   }
-  .row-title,
-  .row-title2 {
+  .row-title h1,
+  .row-title2 h2 {
     font: $font-h3;
   }
 }
@@ -127,7 +127,7 @@ pre {
     width: 90%;
     margin-top: 10px;
   }
-  .row-title {
+  .row-title h1 {
     //   border: solid green;
     font: $font-h3;
     color: $red;

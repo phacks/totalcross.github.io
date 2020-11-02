@@ -70,11 +70,11 @@ function Licensing() {
   return (
     <Layout>
       <SEO
-        title="TotalCross Licences"
-        description="Understand what you get with TotalCross Free Licence under Open Source Licence LPGL v2.1 and what's included in the commercial licence."
+        title="TotalCross · Licenses"
+        description="Understand what you get with TotalCross Free License under Open Source License LGPL v2.1 and what is included in the Commercial License."
       ></SEO>
       <div className={styles.container}>
-        <h1 className={styles.pageTitle}>Our Licences</h1>
+        <h1 className={styles.pageTitle}>Our Licenses</h1>
 
         <div className={styles.content}>
           <div>

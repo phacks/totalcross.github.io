@@ -19,8 +19,8 @@ const EasyToUse = () => {
   return (
     <Layout>
       <SEO
-        title="What makes TotalCross easy to use"
-        description="TotalCross is easy to use because it allows you to code in a high level language, frees you to code on your favourite IDE, helps you build end to end solutions, and with TotalCross you can build your user interface responsive by default."
+        title="What Makes TotalCross Easy to Use"
+        description="Build great UIs with very few commands, coding in a high-level language. Save time and get your products to market faster! Code on your favorite IDE."
       ></SEO>
       <LayoutWhyTC>
         <NavBarWhyTC active="Easy to use" />
@@ -31,10 +31,12 @@ const EasyToUse = () => {
             commands. That means less development time for you.
           </div>
           <div className={styles.rowTitle2}>
-            Corona Chart App Example{" "}
-            <a target="_blank" rel="noopener noreferrer" href={GITHUB_CORONA}>
-              {snGit}
-            </a>
+            <h2>
+              Corona Chart App Example{" "}
+              <a target="_blank" rel="noopener noreferrer" href={GITHUB_CORONA}>
+                {snGit}
+              </a>
+            </h2>
           </div>
           <div className={styles.exampleText}>
             The Corona Chart App was coded with TotalCross. RapidAPI was used to
@@ -98,13 +100,17 @@ const EasyToUse = () => {
             .
           </div>
 
-          <div className={styles.rowTitle}>On your favorite IDE</div>
+          <div className={styles.rowTitle}>
+            <h1>On your favorite IDE</h1>
+          </div>
           <div className={styles.rowTextCenter}>
             TotalCross SDK is compatible with any integrated development
             environment (IDE) that supports Java, like VSCode, NetBeans,
             Eclipse, and IntelliJ
           </div>
-          <div className={styles.rowTitle}>High Level Languages</div>
+          <div className={styles.rowTitle}>
+            <h1>High Level Languages</h1>
+          </div>
           <div className={styles.rowTextCenter}>
             TotalCross uses NanoJava, a leaner version of Java, or more
             precisely a subset of the language with 72% less classes than full

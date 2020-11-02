@@ -1,4 +1,6 @@
 @import "../utils/colors.scss";
+@import "../utils/variables.scss";
+
 body {
   background-color: $black;
 }
@@ -14,4 +16,5 @@ body {
 .site-content {
   min-height: calc(100vh - 195px - 59px);
   margin-top: 59px;
+  font-family: $font-family-main;
 }

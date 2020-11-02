@@ -52,8 +52,8 @@ const LowFootprint = () => {
   return (
     <Layout>
       <SEO
-        title="Low footprint with TotalCross"
-        description="TotalCross keeps a low footprint on your embedded application thanks to its bytecode and virtual machine."
+        title="Low Footprint with TotalCross"
+        description="TotalCross greatly improves application footprint, making your solution lighter."
       ></SEO>
       <LayoutWhyTC>
         <NavBarWhyTC active="Low Footprint" />
@@ -78,7 +78,9 @@ const LowFootprint = () => {
             />
           </div>
           <div className={styles.rowTextBlock}>
-            <div className={styles.rowTitle}>TotalCross bytecode</div>
+            <div className={styles.rowTitle}>
+              <h1>TotalCross bytecode</h1>
+            </div>
             <div className={styles.rowText}>
               {" "}
               Even coding with Java/Kotlin, TC SDK uses anything of these
@@ -99,7 +101,9 @@ const LowFootprint = () => {
             />
           </div>
           <div className={styles.rowTextBlock}>
-            <div className={styles.rowTitle}>TotalCross Virtual Machine</div>
+            <div className={styles.rowTitle}>
+              <h1>TotalCross Virtual Machine</h1>
+            </div>
             <div className={styles.rowText}>
               Instead of Java Virtual Machine (JVM), which is Stack based,
               TotalCross Virtual Machine (TCVM) is Register based. In few words,

@@ -19,17 +19,6 @@
   "entries": [],
   "props": [
     {
-      "key": "src/pages/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "IndexPage",
-          "methods": [],
-          "actualName": "IndexPage"
-        }
-      ]
-    },
-    {
       "key": "src/gatsby-theme-docz/components/Header/index.js",
       "value": [
         {
@@ -52,24 +41,101 @@
       ]
     },
     {
-      "key": "src/pages/community.js",
+      "key": "src/pages/index.js",
       "value": [
         {
           "description": "",
-          "displayName": "Community",
+          "displayName": "IndexPage",
           "methods": [],
-          "actualName": "Community"
+          "actualName": "IndexPage"
         }
       ]
     },
     {
-      "key": "src/components/community-join-the-conversation.js",
+      "key": "src/pages/licensing.js",
       "value": [
         {
           "description": "",
-          "displayName": "JoinTheConversation",
+          "displayName": "Licensing",
           "methods": [],
-          "actualName": "JoinTheConversation"
+          "actualName": "Licensing"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/low-footprint.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "LowFootprint",
+          "methods": [],
+          "actualName": "LowFootprint"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/pricing.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Pricing",
+          "methods": [],
+          "actualName": "Pricing"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/tutorials.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Tutorials",
+          "methods": [],
+          "actualName": "Tutorials"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/why-totalcross.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "WhyTC",
+          "methods": [],
+          "actualName": "WhyTC"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/code-corona-button.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CodeCoronaButton",
+          "methods": [],
+          "actualName": "CodeCoronaButton"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/code-corona-import.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CodeCoronaImport",
+          "methods": [],
+          "actualName": "CodeCoronaImport"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/code-corona-label.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CodeCoronaLabel",
+          "methods": [],
+          "actualName": "CodeCoronaLabel"
         }
       ]
     }

@@ -9,7 +9,10 @@ import Cases from "../components/cases";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="TotalCross Home" />
+    <SEO
+      title="TotalCross · GUI Creator For Embedded, Mobile... Everything!"
+      description="Build beautiful and modern Graphical User Interfaces for embedded, IoT, mobile and desktop. A cross-platform tool that lets you develop apps in Java."
+    />
     <HeroHome />
     <Reasons />
     <Partners />

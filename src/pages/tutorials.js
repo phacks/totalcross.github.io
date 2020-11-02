@@ -16,14 +16,16 @@ function Tutorials() {
   return (
     <Layout>
       <SEO
-        title="TotalCross Articles"
-        description="Learn how to use totalcross with out tutorials"
+        title="TotalCross · Tutorials"
+        description="Let’s be practical! Learn how to use TotalCross with our tutorials, step by step."
       ></SEO>
       <div className={styles.container}>
         <div className={styles.card}>
-          <div className={styles.title}>Tutorials</div>
+          <div className={styles.title}>
+            <h1>Tutorials</h1>
+          </div>
         </div>
-        <div className={styles.cardExtra}></div>
+        {/* <div className={styles.cardExtra}></div> */}
         <div className={styles.container}>
           {videos.map((video) => (
             <div className={styles.card}>
