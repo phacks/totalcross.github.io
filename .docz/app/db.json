@@ -1,45 +1,58 @@
 {
   "config": {
-    "title": "TotalCross",
+    "title": "Docz Example Gatsby",
     "description": "Example of how to integrate docz with gatsby as a theme",
-    "menu": [
-      "Home",
-      "Components"
-    ],
+    "menu": [],
     "version": "2.0.0-rc.41",
     "repository": "https://github.com/pedronauck/docz",
     "native": false,
     "themeConfig": {},
-    "separator": "-",
-    "base": "/docs/",
-    "ignore": [
-      "README.md"
-    ]
+    "separator": "-"
   },
-  "entries": [],
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/nrisbakk/Projects/oct2020TC/totalcross.github.io/README.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/README.md",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          },
+          {
+            "slug": "pull-markdown-files-from-totalcross-docs",
+            "depth": 3,
+            "value": "Pull markdown files from totalcross-docs"
+          },
+          {
+            "slug": "start-developing",
+            "depth": 2,
+            "value": "Start developing"
+          },
+          {
+            "slug": "build",
+            "depth": 2,
+            "value": "Build"
+          },
+          {
+            "slug": "serve-built-app",
+            "depth": 2,
+            "value": "Serve built app"
+          }
+        ]
+      }
+    }
+  ],
   "props": [
-    {
-      "key": "src/gatsby-theme-docz/components/Header/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Header",
-          "methods": [],
-          "actualName": "Header"
-        }
-      ]
-    },
-    {
-      "key": "src/gatsby-theme-docz/components/Logo/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Logo",
-          "methods": [],
-          "actualName": "Logo"
-        }
-      ]
-    },
     {
       "key": "src/pages/index.js",
       "value": [
@@ -48,105 +61,6 @@
           "displayName": "IndexPage",
           "methods": [],
           "actualName": "IndexPage"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/licensing.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Licensing",
-          "methods": [],
-          "actualName": "Licensing"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/low-footprint.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "LowFootprint",
-          "methods": [],
-          "actualName": "LowFootprint"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/pricing.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Pricing",
-          "methods": [],
-          "actualName": "Pricing"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/tutorials.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Tutorials",
-          "methods": [],
-          "actualName": "Tutorials"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/why-totalcross.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "WhyTC",
-          "methods": [],
-          "actualName": "WhyTC"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/code-corona-button.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "CodeCoronaButton",
-          "methods": [],
-          "actualName": "CodeCoronaButton"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/code-corona-import.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "CodeCoronaImport",
-          "methods": [],
-          "actualName": "CodeCoronaImport"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/code-corona-label.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "CodeCoronaLabel",
-          "methods": [],
-          "actualName": "CodeCoronaLabel"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/get-started.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "GetStarted",
-          "methods": [],
-          "actualName": "GetStarted"
         }
       ]
     }
