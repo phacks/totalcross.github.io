@@ -84,7 +84,7 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-react-head`,
+    // `gatsby-plugin-react-head`,
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {

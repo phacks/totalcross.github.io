@@ -2,7 +2,7 @@ import React from "react";
 
 import NavBar from "./navbar";
 
-const Header = ({ siteTitle }) => (
+const Header /*= ({ siteTitle })*/ = () => (
   <header>
     <NavBar />
   </header>

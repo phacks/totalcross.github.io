@@ -20,7 +20,8 @@ const Layout = ({ children }) => {
 
   return (
     <div className={styles.container} data-hj-ignore-attributes>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header/> 
+      {/* siteTitle={data.site.siteMetadata.title} /> */}
       <div className={styles.site}>
         <main>
           <div className={styles.siteContent}>{children}</div>

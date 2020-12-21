@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 // import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 import { useStaticQuery, graphql } from "gatsby";
-import { Title, Link, Meta } from "react-head";
+// import { Title, Link, Meta } from "react-head";
 
 function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
@@ -50,19 +50,19 @@ function SEO({ description, lang, meta, title, image }) {
 
   return (
     <>
-      <Title>{seo.title}</Title>
-      <Meta name="description" content={seo.description} />
-      <Meta name="image" content={seo.image} />
-      <Meta property="og:url" content={seo.url} />
-      <Meta property="og:title" content={seo.title} />
-      <Meta property="og:description" content={seo.description} />
-      <Meta property="og:image" content={seo.image} />
-      <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:creator" content={twitterUsername} />
-      <Meta name="twitter:title" content={seo.title} />
-      <Meta name="twitter:description" content={seo.description} />
-      <Meta name="twitter:image" content={seo.image} />
-      <Link rel="canonical" content="https://totalcross.com/" />
+      <title>{seo.title}</title>
+      <meta name="description" content={seo.description} />
+      <meta name="image" content={seo.image} />
+      <meta property="og:url" content={seo.url} />
+      <meta property="og:title" content={seo.title} />
+      <meta property="og:description" content={seo.description} />
+      <meta property="og:image" content={seo.image} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content={twitterUsername} />
+      <meta name="twitter:title" content={seo.title} />
+      <meta name="twitter:description" content={seo.description} />
+      <meta name="twitter:image" content={seo.image} />
+      {/* <Link rel="canonical" content="https://totalcross.com/" /> */}
     </>
   );
 }
