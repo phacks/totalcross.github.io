@@ -74,6 +74,17 @@
           "actualName": "Samples"
         }
       ]
+    },
+    {
+      "key": "src/components/navbar.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "NavBar",
+          "methods": [],
+          "actualName": "NavBar"
+        }
+      ]
     }
   ]
 }

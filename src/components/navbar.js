@@ -67,6 +67,9 @@ function NavBar() {
           >
             docs
           </a>
+          <Link className={styles.navItem} to='/samples'>
+            samples
+          </Link>
           <Link className={styles.navItem} to={COMMUNITY}>
             community
           </Link>
