@@ -65,13 +65,13 @@
       ]
     },
     {
-      "key": "src/components/reasons-home.js",
+      "key": "src/pages/samples.js",
       "value": [
         {
           "description": "",
-          "displayName": "Reasons",
+          "displayName": "Samples",
           "methods": [],
-          "actualName": "Reasons"
+          "actualName": "Samples"
         }
       ]
     }

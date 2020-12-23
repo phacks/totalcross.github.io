@@ -18,8 +18,11 @@ const ContentCard = (props) => {
     <a href={url}>
       <div className={styles.card}>
         <div>
-          <img src={imageURL} alt={title} />
-          {/* <Img fixed={image} alt={title} className={styles.cardImage} /> */}
+          { imageURL ? (
+            <img src={imageURL} alt={title} />
+          ) :
+         (<Img fixed={image} alt={title} className={styles.cardImage} />)
+          }
         </div>
         <div className={styles.cardText}>
           <div className={styles.cardTitle}>{title}</div>
