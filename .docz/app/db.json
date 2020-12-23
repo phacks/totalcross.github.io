@@ -63,28 +63,6 @@
           "actualName": "IndexPage"
         }
       ]
-    },
-    {
-      "key": "src/pages/samples.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Samples",
-          "methods": [],
-          "actualName": "Samples"
-        }
-      ]
-    },
-    {
-      "key": "src/components/navbar.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "NavBar",
-          "methods": [],
-          "actualName": "NavBar"
-        }
-      ]
     }
   ]
 }
