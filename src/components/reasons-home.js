@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./reasons-home.module.scss";
 import HelloWorldGIF from "../imgs/TCHA.gif";
-import { WHYTC, CROSS, EASY, PLATFORMS, CONFIG } from "../utils/links";
+import { WHYTC, CROSS, EASY, PLATFORMS, CONFIG, GITHUB } from "../utils/links";
 import TCButton from "./button";
 
 const snGit = <FontAwesomeIcon className={styles.icon} icon={faGithub} />;
@@ -35,14 +35,21 @@ function Reasons() {
           }
         }
       }
-      config: file(relativePath: { eq: "src/imgs/cross.png" }) {
+      config: file(relativePath: { eq: "src/imgs/requirements.png" }) {
         childImageSharp {
           fixed(width: 80, quality: 100) {
             ...GatsbyImageSharpFixed
           }
         }
       }
-      rasp: file(relativePath: { eq: "src/imgs/cross.png" }) {
+      rasp: file(relativePath: { eq: "src/imgs/raspberry.png" }) {
+        childImageSharp {
+          fixed(width: 80, quality: 100) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      open: file(relativePath: { eq: "src/imgs/opensource.png" }) {
         childImageSharp {
           fixed(width: 80, quality: 100) {
             ...GatsbyImageSharpFixed
@@ -117,6 +124,24 @@ function Reasons() {
               <div className={styles.iconTitle}>Minimum Requirements</div>
               <div className={styles.iconText}>
                 256MB RAM, CPU Arm A7 528MHz and no GPU
+              </div>
+            </div>
+          </div>
+        </Link>
+        <Link to={GITHUB}>
+          <div className={styles.containerIcon}>
+            <div className={styles.icon}>
+              <Img
+                fixed={data.open.childImageSharp.fixed}
+                alt="open-source icon"
+              />
+            </div>
+            <div className={styles.iconTextArea}>
+              <div className={styles.iconTitle}>
+                Free and Open-Source
+              </div>
+              <div className={styles.iconText}>
+                Hosted on GitHub and maintained by a community of contributors.
               </div>
             </div>
           </div>
